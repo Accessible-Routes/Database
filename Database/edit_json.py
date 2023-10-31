@@ -12,32 +12,69 @@ def read_json(JSON_File):
     return count
 
 
+# def remove_steps(JSON_file):
+#     f = open("new_file.json", "w")
+#     f.write("{\"elements\": [")
+#     count = 0
+#     outer_current = ""
+#     for a in JSON_file['elements']:
+#         # print(a)
+#         try:
+#             if (a["tags"]["highway"] == "steps"):
+#                 continue
+#         except KeyError:
+#             pass
+#         else:
+#             count += 1
+#             current = str(a)
+#             for elem in current:
+#                 if (elem == "\'"):
+#                     outer_current += "\""
+#                 else:
+#                     outer_current += elem
+#             outer_current += ", "
+#     outer_current = outer_current.rstrip(outer_current[-1])
+#     outer_current = outer_current.rstrip(outer_current[-1])
+#
+#     outer_current += "]}"
+#     f.writelines(outer_current)
+#     f.close()
+#     return count;
+
 def remove_steps(JSON_file):
     f = open("new_file.json", "w")
-    f.write("{\"elements\": [")
+    # f.write("{\"elements\": [")
     count = 0
-    outer_current = ""
+    temp_obj = []
+    # outer_current = ""
+    index_len = len(JSON_file["elements"])
+    print("Original JSON file has: ", len(JSON_file["elements"]), "elements.")
     for a in JSON_file['elements']:
         # print(a)
         try:
-            if (a["tags"]["highway"] == "steps"):
-                continue
+            if (a["tags"]["highway"] != "steps"):
+                temp_obj.append(a)
+                # count+=1
+                # del a
         except KeyError:
-            pass
-        else:
-            count += 1
-            current = str(a)
-            for elem in current:
-                if (elem == "\'"):
-                    outer_current += "\""
-                else:
-                    outer_current += elem
-            outer_current += ", "
-    outer_current = outer_current.rstrip(outer_current[-1])
-    outer_current = outer_current.rstrip(outer_current[-1])
+            temp_obj.append(a)
+        except:
+            temp_obj.append(a)
+        # else:
+            # count += 1
+            # current = str(a)
+            # for elem in current:
+            #     if (elem == "\'"):
+            #         outer_current += "\""
+            #     else:
+            #         outer_current += elem
+            # outer_current += ", "
+    # outer_current = outer_current.rstrip(outer_current[-1])
+    # outer_current = outer_current.rstrip(outer_current[-1])
 
-    outer_current += "]}"
-    f.writelines(outer_current)
+    # outer_current += "]}"
+    # f.writelines(outer_current)
+    json.dump(temp_obj, f, indent = 2)
     f.close()
     return count;
 
@@ -45,17 +82,41 @@ def remove_steps(JSON_file):
 #     g = open(new_filename, "w")
 #     # f.write("{\"elements\": [")
 #     count = 0
+#     index_count = 0
+#     out_arr = []
+#     out_dict = {}
 #     out_str = json.dumps(JSON_file)
-#     g.write(out_str)
-#     temp = json.loads(g)
-#     for item in temp["elements"]:
-#         if ("steps" in item["highway"]["tags"]):
-#             print("working")
+#     index = 0;
+#     for item in JSON_file["elements"]:
+#         # print(item)
+#         try:
+#             if ("steps" in item["highway"]["tags"]):
+#                 print("check 1")
+#                 continue
+#         except KeyError:
 #
+#             # index = 0
+#             try:
+#                 for each in item:
+#                     print("Printing Element", count)
+#                     print(JSON_file["elements"][index])
+#                     count += 1
+#                     index += 1
+#             except IndexError:
+#                 break
 #
-# #try copying json file, loading it as a json into the program, then just popping the array items from "elements" array
-#     g.close()
-#     return count;
+#     print(out_dict)
+
+    # g.write(out_str)
+    # temp = json.loads(g)
+    # for item in temp["elements"]:
+    #     if ("steps" in item["highway"]["tags"]):
+    #         print("working")
+
+
+#try copying json file, loading it as a json into the program, then just popping the array items from "elements" array
+    # g.close()
+    # return count;
 
 
 
@@ -65,7 +126,7 @@ data = json.load(f)
 orig_count = read_json(data)
 
 out_file = "new_file.json"
-new_count = remove_steps(data) #, out_file)
+new_count = remove_steps(data)
 
 print("There are", orig_count, "elements in the original json.")
 print("There are", new_count, "elements in the new json.")
