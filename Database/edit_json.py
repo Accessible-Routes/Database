@@ -1,15 +1,15 @@
 import json
 
-def read_json(JSON_File):
-    count = 0
-    for i in JSON_File['elements']:
-        # try:
-            # print("ID: ", i["id"], "\t|\t", "Tags: ", i["tags"])
-        # except KeyError:
-            # print("ID: ", i["id"], "\t|\t", "Tags: None")
-        count += 1
-    f.close()
-    return count
+# def read_json(JSON_File):
+#     count = 0
+#     for i in JSON_File['elements']:
+#         # try:
+#             # print("ID: ", i["id"], "\t|\t", "Tags: ", i["tags"])
+#         # except KeyError:
+#             # print("ID: ", i["id"], "\t|\t", "Tags: None")
+#         count += 1
+#     f.close()
+#     return count
 
 
 # def remove_steps(JSON_file):
@@ -43,12 +43,11 @@ def read_json(JSON_File):
 
 def remove_steps(JSON_file):
     f = open("new_file.json", "w")
-    f.write("{\"elements\": [")
+    f.write("{\"elements\": ")
     count = 0
     temp_obj = []
     # outer_current = ""
     index_len = len(JSON_file["elements"])
-    print("Original JSON file has: ", len(JSON_file["elements"]), "elements.")
     for a in JSON_file['elements']:
         # print(a)
         try:
@@ -75,6 +74,8 @@ def remove_steps(JSON_file):
     # outer_current += "]}"
     # f.writelines(outer_current)
     json.dump(temp_obj, f, indent = 2)
+    f.write("}")
+
     f.close()
     return count;
 
@@ -123,12 +124,12 @@ def remove_steps(JSON_file):
 filename = "4645508147a65be4e31c1cce9ade2840c6ac334f.json"
 f = open(filename)
 data = json.load(f)
-orig_count = read_json(data)
+# orig_count = read_json(data)
 
 out_file = "new_file.json"
 new_count = remove_steps(data)
 
-print("There are", orig_count, "elements in the original json.")
+print("There are", len(data["elements"]), "elements in the original json.")
 print("There are", new_count, "elements in the new json.")
 # step_count = 0
 #
