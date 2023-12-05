@@ -6,6 +6,7 @@ import networkx as nx
 import osmnx as ox
 import pandas as pd
 from entrancePoint import entrancePoint
+import pickle
 
 #A test function for plotting a path from 2 seperate nodes in RPI
 def testPlotRoute(RPI):
@@ -96,18 +97,21 @@ def plotGraph(new_nodes):
       G = RPI
       #print(RPI.nodes)
       #saves our graph to a test.graphml file
-      ox.save_graphml(G, "test.graphml")
+      #ox.save_graphml(G, "test.graphml")
+      with open("graph.p", 'wb') as f:
+            pickle.dump(G, f)
       return RPI
 
 def readGraphFromFile():
-      nx.read_graphml("test.graphml")
+      with open("graph.p", 'rb') as f: 
+            G_loaded = pickle.load(f)
+            return G_loaded
 
 def routemaker(start, end):
       try:
             place = 'Rensselaer Polytechnic Institute'
             new_nodes = createNodeArray('.\\buildingEntrance.json')
             test = readGraphFromFile()#plotGraph(new_nodes)
-
             nodes, edges = ox.graph_to_gdfs(test, nodes=True, edges=True) 
             entrance_df = nodes[nodes['highway'].str.contains("Entrance", na=False)]
             start_node = int(entrance_df.loc[entrance_df['highway'] == start]['id'].values[0].item())
@@ -126,7 +130,10 @@ def routemaker(start, end):
             return route_list[1:-1]
       except:
             return [] 
-
+# new_nodes = createNodeArray('Django/backend/routedb/buildingEntrance.json')
+# plotGraph(new_nodes)
+# test = readGraphFromFile()#plotGraph(new_nodes)
+# print()
 #ox.save_graphml(test, filepath)
 #G = ox.load_graphml(filepath)
       
