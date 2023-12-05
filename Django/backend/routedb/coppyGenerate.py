@@ -99,11 +99,14 @@ def plotGraph(new_nodes):
       ox.save_graphml(G, "test.graphml")
       return RPI
 
+def readGraphFromFile():
+      nx.read_graphml("test.graphml")
+
 def routemaker(start, end):
       try:
             place = 'Rensselaer Polytechnic Institute'
             new_nodes = createNodeArray('.\\buildingEntrance.json')
-            test = plotGraph(new_nodes)
+            test = readGraphFromFile()#plotGraph(new_nodes)
 
             nodes, edges = ox.graph_to_gdfs(test, nodes=True, edges=True) 
             entrance_df = nodes[nodes['highway'].str.contains("Entrance", na=False)]
@@ -120,7 +123,7 @@ def routemaker(start, end):
                   node['longitude'] = test.nodes[i]['x']
                   route_list.append(node)
       
-            return route_list
+            return route_list[1:-1]
       except:
             return [] 
 
