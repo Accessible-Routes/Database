@@ -1,0 +1,28 @@
+For indoor routing, a flat graph is preferable as having a nested graph becomes difficult. 
+The entrance nodes can have a nested graph in it, but the building should be its own graph.
+Because of this idea, we can store this graph as an adjacency list.
+This data will come from Anthonys building tool.
+
+The class design can look like this:
+
+Class Building_Graph:
+      Nodes #List of class nodes
+      Dict{Nodes, Edges} #List of nodes and edges that coorespond with these nodes.
+      getNodes() # returns nodes
+      getEdges(Node) # returns the edges from Building_Graph
+      addNode(NOde) # adds node to graph
+      addEdge(Node, Edge) # adds an edge to a node in a dicitonary
+      removeNode(Node) #Removes node and all edges that go to or leave this node
+      removeEdge(Node, Edge) #Removes edge entry in node in Dict
+      shortestpath(Node, Node) # returns a list of nodes that are connected by edges. Returns an empty list if no path exists
+
+Class Node:
+      id 
+      Degree
+
+Class Edge:
+      id
+      StartNode
+      EndNode
+
+
