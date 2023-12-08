@@ -85,6 +85,7 @@ def plotGraph(new_nodes):
       RPI = ox.graph_from_gdfs(nodes, edges)
       #finds the closest node of all nodes that are entrances and adds a bi-directional edge to these two nodes
       for index, row in entrance_df.iterrows():
+            #unit conversions on databse
             tmp_orig_id = int(row['id'])
             tmp_x = float(row['x'])  
             tmp_y = float(row['y'])          
@@ -110,7 +111,7 @@ def readGraphFromFile():
 def routemaker(start, end):
       try:
             place = 'Rensselaer Polytechnic Institute'
-            new_nodes = createNodeArray('.\\buildingEntrance.json')
+            new_nodes = createNodeArray('.\\buildingEntrance.json') # this will need to be changed depending on operating system if you wish to use locally
             test = readGraphFromFile()#plotGraph(new_nodes)
             nodes, edges = ox.graph_to_gdfs(test, nodes=True, edges=True) 
             entrance_df = nodes[nodes['highway'].str.contains("Entrance", na=False)]
@@ -127,7 +128,7 @@ def routemaker(start, end):
                   node['longitude'] = test.nodes[i]['x']
                   route_list.append(node)
       
-            return route_list[1:-1]
+            return route_list
       except:
             return [] 
 # new_nodes = createNodeArray('Django/backend/routedb/buildingEntrance.json')
