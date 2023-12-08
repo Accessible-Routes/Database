@@ -6,6 +6,7 @@ This data will come from Anthonys building tool.
 The class design can look like this:
 
 Class Building_Graph:
+      Name #Name of Building
       Nodes #List of class nodes
       Dict{Nodes, Edges} #List of nodes and edges that coorespond with these nodes.
       getNodes() # returns nodes
