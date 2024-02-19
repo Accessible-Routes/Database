@@ -59,7 +59,8 @@ def plotGraph(new_nodes):
       south = 42.72492
       east = -73.67119
       west = -73.68663
-      RPI = ox.graph_from_bbox(north, south, east, west, network_type = "walk")
+      RPI = ox.graph_from_bbox(north, south, east, west, network_type = "walk"
+                               , infrastructures = ('way["highway"~"footway|pedestrian|cycleway|path|steps|living_street|tertiary|unclassified|residental|service"]',))
       RPI = ox.add_edge_speeds(RPI,5)
       RPI = ox.add_edge_travel_times(RPI)
       nodes, edges = ox.graph_to_gdfs(RPI, nodes=True, edges=True)  
