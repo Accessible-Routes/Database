@@ -117,9 +117,9 @@ def routemaker(start, end):
             for a, b,c,d in G.edges(keys = True, data = True):
             #print(d['highway'])
             #print(type(d))
-            if 'highway' in d.keys():
-                  if 'steps' in d['highway']:
-                        edgesToRemove.append((a, b))
+                  if 'highway' in d.keys():
+                        if 'steps' in d['highway']:
+                              edgesToRemove.append((a, b))
       for i in edgesToRemove:
             G.remove_edge(i[0], i[1])
             nodes, edges = ox.graph_to_gdfs(G, nodes=True, edges=True) 
