@@ -3317,36 +3317,44 @@
       <data key="d6">28.0</data>
     </node>
     <node id="28">
-      <data key="d1">42.730415837049144</data>
-      <data key="d2"> -73.68306538178464</data>
+      <data key="d1">42.730515354781396</data>
+      <data key="d2"> -73.68331526803681</data>
       <data key="d3">Entrance_Carnegie</data>
       <data key="d4">1</data>
       <data key="d5">29.0</data>
       <data key="d6">29.0</data>
     </node>
     <node id="29">
-      <data key="d1">42.731021303557796</data>
-      <data key="d2"> -73.68333244233531</data>
-      <data key="d3">Entrance_Pittsburg</data>
+      <data key="d1">42.730415837049144</data>
+      <data key="d2"> -73.68306538178464</data>
+      <data key="d3">Entrance_Carnegie</data>
       <data key="d4">1</data>
       <data key="d5">30.0</data>
       <data key="d6">30.0</data>
     </node>
     <node id="30">
-      <data key="d1">42.73166096445073</data>
-      <data key="d2"> -73.68276797289366</data>
-      <data key="d3">Entrance_West Hall</data>
+      <data key="d1">42.731021303557796</data>
+      <data key="d2"> -73.68333244233531</data>
+      <data key="d3">Entrance_Pittsburg</data>
       <data key="d4">1</data>
       <data key="d5">31.0</data>
       <data key="d6">31.0</data>
     </node>
     <node id="31">
+      <data key="d1">42.73166096445073</data>
+      <data key="d2"> -73.68276797289366</data>
+      <data key="d3">Entrance_West Hall</data>
+      <data key="d4">1</data>
+      <data key="d5">32.0</data>
+      <data key="d6">32.0</data>
+    </node>
+    <node id="32">
       <data key="d1">42.72844630836017</data>
       <data key="d2"> -73.67450286751094</data>
       <data key="d3">Entrance_Commons dining hall</data>
       <data key="d4">1</data>
-      <data key="d5">32.0</data>
-      <data key="d6">32.0</data>
+      <data key="d5">33.0</data>
+      <data key="d6">33.0</data>
     </node>
     <edge source="41691957" target="1232557248" id="0">
       <data key="d7">262245078</data>
@@ -3379,7 +3387,7 @@
     <edge source="41691957" target="41822752" id="0">
       <data key="d7">[35360219, 267844564]</data>
       <data key="d8">False</data>
-      <data key="d9">['2', '4']</data>
+      <data key="d9">['4', '2']</data>
       <data key="d10">NY 2</data>
       <data key="d11">['Ferry Street', 'Congress Street']</data>
       <data key="d12">primary</data>
@@ -3481,9 +3489,9 @@
     <edge source="41822752" target="41691957" id="0">
       <data key="d7">[35360219, 267844564]</data>
       <data key="d8">False</data>
-      <data key="d9">['2', '4']</data>
+      <data key="d9">['4', '2']</data>
       <data key="d10">NY 2</data>
-      <data key="d11">['Congress Street', 'Ferry Street']</data>
+      <data key="d11">['Ferry Street', 'Congress Street']</data>
       <data key="d12">primary</data>
       <data key="d13">30 mph</data>
       <data key="d14">True</data>
@@ -3689,7 +3697,7 @@
     <edge source="41854697" target="41966513" id="0">
       <data key="d7">[5631226, 5641516]</data>
       <data key="d8">False</data>
-      <data key="d11">['11th Street', 'Farm Street']</data>
+      <data key="d11">['Farm Street', '11th Street']</data>
       <data key="d12">residential</data>
       <data key="d13">30 mph</data>
       <data key="d14">False</data>
@@ -4349,12 +4357,12 @@
     <edge source="1212681124" target="1212680973" id="0">
       <data key="d7">[306620290, 306620291, 306620292, 1099965893, 306620293, 306620294, 306621173, 306621174]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">51.001</data>
       <data key="d16">LINESTRING (-73.6719995 42.7314033, -73.671884 42.7313949, -73.6718011 42.7313924, -73.6717656 42.7314013, -73.6716224 42.7314268, -73.6715858 42.7314332, -73.6714597 42.7314524, -73.6714176 42.7314509, -73.6713875 42.7314588)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">7.6</data>
+      <data key="d17">35.2</data>
+      <data key="d18">5.2</data>
     </edge>
     <edge source="3115903728" target="41721827" id="0">
       <data key="d7">5615823</data>
@@ -4885,23 +4893,23 @@
       <data key="d7">[81798261, 78230599]</data>
       <data key="d8">False</data>
       <data key="d11">The Approach</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">20.814</data>
       <data key="d16">LINESTRING (-73.6843773 42.7306092, -73.6843884 42.7305537, -73.6843068 42.7305408, -73.684213 42.7305298)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.1</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.1</data>
     </edge>
     <edge source="953287092" target="953287077" id="0">
       <data key="d7">[81798264, 81798262]</data>
       <data key="d8">False</data>
       <data key="d11">The Approach</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">21.244</data>
       <data key="d16">LINESTRING (-73.6843773 42.7306092, -73.6843615 42.730665, -73.6842847 42.7306534, -73.6841827 42.7306381)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.2</data>
     </edge>
     <edge source="41813140" target="6173967250" id="0">
       <data key="d7">39533683</data>
@@ -5102,7 +5110,7 @@
     <edge source="41966513" target="41854697" id="0">
       <data key="d7">[5631226, 5641516]</data>
       <data key="d8">False</data>
-      <data key="d11">['11th Street', 'Farm Street']</data>
+      <data key="d11">['Farm Street', '11th Street']</data>
       <data key="d12">residential</data>
       <data key="d13">30 mph</data>
       <data key="d14">True</data>
@@ -5484,12 +5492,12 @@
     <edge source="2867884585" target="2867884580" id="0">
       <data key="d7">[282843322, 282843323, 282843324, 282843325, 282843326]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">58.49300000000001</data>
       <data key="d16">LINESTRING (-73.6785077 42.7309853, -73.6785279 42.7309155, -73.6785771 42.7306276, -73.6785208 42.7306219, -73.6785276 42.7305805, -73.6785344 42.7305399, -73.6785417 42.7305001)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">8.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">6.0</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="2867884591" target="1208044164" id="0">
@@ -6384,12 +6392,12 @@
     <edge source="1208042732" target="1208043893" id="0">
       <data key="d7">[54356099, 104737255]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">42.263000000000005</data>
       <data key="d16">LINESTRING (-73.6757806 42.7292148, -73.6757459 42.7292074, -73.6757192 42.7291937, -73.6753731 42.7289839)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">6.3</data>
+      <data key="d17">35.2</data>
+      <data key="d18">4.3</data>
     </edge>
     <edge source="1208042732" target="1208043605" id="0">
       <data key="d7">1196592060</data>
@@ -6425,12 +6433,12 @@
     <edge source="2868461066" target="3117629820" id="0">
       <data key="d7">[306773650, 306773651]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">8.148</data>
       <data key="d16">LINESTRING (-73.6745832 42.7291498, -73.6746245 42.7291552, -73.6746737 42.7291775)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">0.8</data>
     </edge>
     <edge source="41837895" target="1208041990" id="0">
       <data key="d7">53223664</data>
@@ -6890,7 +6898,7 @@
     <edge source="41851971" target="1053141694" id="0">
       <data key="d7">[5625922, 5640702, 5630838]</data>
       <data key="d8">False</data>
-      <data key="d11">['7th Avenue', 'John Langlotz Lane', 'Institute Avenue']</data>
+      <data key="d11">['7th Avenue', 'Institute Avenue', 'John Langlotz Lane']</data>
       <data key="d12">service</data>
       <data key="d14">[False, True]</data>
       <data key="d15">296.851</data>
@@ -6922,7 +6930,7 @@
     <edge source="1053141694" target="41851971" id="0">
       <data key="d7">[5625922, 5630838, 5640702]</data>
       <data key="d8">False</data>
-      <data key="d11">['7th Avenue', 'John Langlotz Lane', 'Institute Avenue']</data>
+      <data key="d11">['7th Avenue', 'Institute Avenue', 'John Langlotz Lane']</data>
       <data key="d12">service</data>
       <data key="d14">[False, True]</data>
       <data key="d15">296.85100000000006</data>
@@ -7040,12 +7048,12 @@
       <data key="d7">[81798261, 78230599]</data>
       <data key="d8">False</data>
       <data key="d11">The Approach</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">20.814</data>
       <data key="d16">LINESTRING (-73.684213 42.7305298, -73.6843068 42.7305408, -73.6843884 42.7305537, -73.6843773 42.7306092)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.1</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.1</data>
     </edge>
     <edge source="473668275" target="953287140" id="0">
       <data key="d7">288217482</data>
@@ -7097,12 +7105,12 @@
       <data key="d7">[81798264, 81798262]</data>
       <data key="d8">False</data>
       <data key="d11">The Approach</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">21.244</data>
       <data key="d16">LINESTRING (-73.6841827 42.7306381, -73.6842847 42.7306534, -73.6843615 42.730665, -73.6843773 42.7306092)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.2</data>
     </edge>
     <edge source="953287046" target="473668275" id="0">
       <data key="d7">589051952</data>
@@ -7268,14 +7276,14 @@
     <edge source="2521799142" target="1208042780" id="0">
       <data key="d7">[244908049, 283123268, 283123269, 283123271]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">32.307</data>
       <data key="d16">LINESTRING (-73.6779055 42.7293747, -73.6778493 42.7294221, -73.6778465 42.7294407, -73.6779702 42.7294527, -73.6779076 42.7294632, -73.6778928 42.7295325)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">4.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.3</data>
       <data key="d20">yes</data>
-      <data key="d23">['3', '1.5']</data>
+      <data key="d23">['1.5', '3']</data>
     </edge>
     <edge source="1208043881" target="1208041898" id="0">
       <data key="d7">407629772</data>
@@ -7405,12 +7413,12 @@
     <edge source="846508152" target="2871629348" id="0">
       <data key="d7">[283275182, 283275183, 283275184, 283275185, 283275186, 283275187, 283275188, 283275189, 283275190, 283275191, 283420305, 283420304, 283275196]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">52.238</data>
       <data key="d16">LINESTRING (-73.6830367 42.7290541, -73.6831665 42.7290804, -73.6831944 42.7290877, -73.6832125 42.7290916, -73.6832472 42.7290987, -73.6832904 42.7291068, -73.6833266 42.7291145, -73.6833494 42.7291187, -73.6833827 42.7291251, -73.6834259 42.7291339, -73.6834647 42.7291419, -73.6834821 42.7291454, -73.6835142 42.7291519, -73.6836528 42.7291798)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">7.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">5.3</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="846508152" target="2871629375" id="0">
@@ -7438,12 +7446,12 @@
     <edge source="2871629348" target="846508152" id="0">
       <data key="d7">[283275182, 283275183, 283420304, 283420305, 283275186, 283275187, 283275188, 283275189, 283275190, 283275191, 283275185, 283275184, 283275196]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">52.23799999999999</data>
       <data key="d16">LINESTRING (-73.6836528 42.7291798, -73.6835142 42.7291519, -73.6834821 42.7291454, -73.6834647 42.7291419, -73.6834259 42.7291339, -73.6833827 42.7291251, -73.6833494 42.7291187, -73.6833266 42.7291145, -73.6832904 42.7291068, -73.6832472 42.7290987, -73.6832125 42.7290916, -73.6831944 42.7290877, -73.6831665 42.7290804, -73.6830367 42.7290541)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">7.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">5.3</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="2871629375" target="1208042425" id="0">
@@ -7514,22 +7522,22 @@
     <edge source="846508154" target="1208042881" id="0">
       <data key="d7">[288217484, 288217485, 288217486]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">18.645000000000003</data>
       <data key="d16">LINESTRING (-73.6820876 42.7310918, -73.6821974 42.7310686, -73.6822645 42.7310588, -73.6822826 42.731065, -73.6822981 42.73108)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.9</data>
     </edge>
     <edge source="846508154" target="2915338660" id="0">
       <data key="d7">[288217483, 288217484, 71071622]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">47.621</data>
       <data key="d16">LINESTRING (-73.6820876 42.7310918, -73.6821242 42.7309906, -73.6821651 42.7309228, -73.6821733 42.7309004, -73.6822653 42.7307893, -73.6823139 42.730726, -73.6823189 42.7307028)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">7.1</data>
+      <data key="d17">35.2</data>
+      <data key="d18">4.9</data>
     </edge>
     <edge source="846508154" target="8867005941" id="0">
       <data key="d7">[288217488, 104737217]</data>
@@ -7545,12 +7553,12 @@
     <edge source="846508154" target="1208043226" id="0">
       <data key="d7">[288217489, 288217490, 288217491]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">17.038</data>
       <data key="d16">LINESTRING (-73.6820876 42.7310918, -73.682082 42.7311167, -73.6820742 42.7311663, -73.6821791 42.7311788)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.5</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.7</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208042881" target="2917723159" id="0">
@@ -7576,12 +7584,12 @@
     <edge source="1208042881" target="846508154" id="0">
       <data key="d7">[288217484, 288217485, 288217486]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">18.645</data>
       <data key="d16">LINESTRING (-73.6822981 42.73108, -73.6822826 42.731065, -73.6822645 42.7310588, -73.6821974 42.7310686, -73.6820876 42.7310918)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.9</data>
     </edge>
     <edge source="1208042881" target="1208043226" id="0">
       <data key="d7">288217493</data>
@@ -7606,12 +7614,12 @@
     <edge source="2915338660" target="846508154" id="0">
       <data key="d7">[288217483, 288217484, 71071622]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">47.621</data>
       <data key="d16">LINESTRING (-73.6823189 42.7307028, -73.6823139 42.730726, -73.6822653 42.7307893, -73.6821733 42.7309004, -73.6821651 42.7309228, -73.6821242 42.7309906, -73.6820876 42.7310918)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">7.1</data>
+      <data key="d17">35.2</data>
+      <data key="d18">4.9</data>
     </edge>
     <edge source="2915338660" target="10069778978" id="0">
       <data key="d7">420398487</data>
@@ -7657,12 +7665,12 @@
     <edge source="8867005941" target="10069778976" id="0">
       <data key="d7">[958313000, 958313001, 958312999]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">[False, True]</data>
       <data key="d15">53.495999999999995</data>
       <data key="d16">LINESTRING (-73.6809167 42.7309402, -73.6811604 42.730969, -73.6812019 42.7307707, -73.6812122 42.7307139, -73.6812196 42.7306724)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">8.0</data>
+      <data key="d17">35.2</data>
+      <data key="d18">5.5</data>
     </edge>
     <edge source="1208043226" target="1208042357" id="0">
       <data key="d7">288217493</data>
@@ -7677,12 +7685,12 @@
     <edge source="1208043226" target="846508154" id="0">
       <data key="d7">[288217489, 288217490, 288217491]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">17.038</data>
       <data key="d16">LINESTRING (-73.6821791 42.7311788, -73.6820742 42.7311663, -73.682082 42.7311167, -73.6820876 42.7310918)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.5</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.7</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208043226" target="1208042881" id="0">
@@ -8152,12 +8160,12 @@
     <edge source="953287079" target="1208041826" id="0">
       <data key="d7">[287981184, 287981185, 287981178]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">15.484</data>
       <data key="d16">LINESTRING (-73.6821572 42.7307004, -73.6821451 42.7306739, -73.6821163 42.7305929, -73.6821069 42.7305662)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.3</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.6</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="953287079" target="1208044224" id="0">
@@ -8173,12 +8181,12 @@
     <edge source="953286973" target="2915338628" id="0">
       <data key="d7">[288217480, 104737290, 288217478]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">14.503</data>
       <data key="d16">LINESTRING (-73.6826011 42.730614, -73.6826012 42.7305941, -73.6826009 42.7304992, -73.6826036 42.7304837)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.5</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="953286973" target="846508183" id="0">
@@ -8411,12 +8419,12 @@
       <data key="d7">[71071617, 39533737]</data>
       <data key="d8">False</data>
       <data key="d11">The Approach</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">50.132999999999996</data>
       <data key="d16">LINESTRING (-73.6854618 42.7306435, -73.6854465 42.7306593, -73.6854123 42.7306667, -73.684867 42.730605)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">7.5</data>
+      <data key="d17">35.2</data>
+      <data key="d18">5.1</data>
     </edge>
     <edge source="2653417895" target="2653417920" id="0">
       <data key="d7">259876591</data>
@@ -8454,12 +8462,12 @@
       <data key="d7">[39533737, 71071617]</data>
       <data key="d8">False</data>
       <data key="d11">The Approach</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">50.132999999999996</data>
       <data key="d16">LINESTRING (-73.684867 42.730605, -73.6854123 42.7306667, -73.6854465 42.7306593, -73.6854618 42.7306435)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">7.5</data>
+      <data key="d17">35.2</data>
+      <data key="d18">5.1</data>
     </edge>
     <edge source="846508221" target="2867884585" id="0">
       <data key="d7">5628183</data>
@@ -8626,12 +8634,12 @@
     <edge source="1208043495" target="4374185211" id="0">
       <data key="d7">[921149136, 921149137, 265353473]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">89.928</data>
       <data key="d16">LINESTRING (-73.682689 42.7315008, -73.6827297 42.7315068, -73.6827818 42.7315144, -73.6830237 42.7315499, -73.6830452 42.731473, -73.6831096 42.7314739, -73.6832885 42.731498, -73.6835109 42.7315325, -73.6835434 42.73158, -73.6835195 42.7316565)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">13.4</data>
+      <data key="d17">35.2</data>
+      <data key="d18">9.2</data>
     </edge>
     <edge source="1208043495" target="8866962056" id="0">
       <data key="d7">[958312978, 958312980]</data>
@@ -8647,12 +8655,12 @@
     <edge source="1208041938" target="1208042123" id="0">
       <data key="d7">[104737318, 299562136, 299562137, 299562138, 299562139, 299562140, 299562141]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">32.001</data>
       <data key="d16">LINESTRING (-73.6832287 42.7309917, -73.6832223 42.7309494, -73.6832143 42.7309295, -73.6832015 42.7309087, -73.6831528 42.7308619, -73.683102 42.7308178, -73.6830945 42.7308109, -73.6830445 42.7307635, -73.6830312 42.7307506)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">4.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.3</data>
     </edge>
     <edge source="1208041938" target="8552328207" id="0">
       <data key="d7">[104737245, 288217486]</data>
@@ -8819,12 +8827,12 @@
     <edge source="10069778976" target="8867005941" id="0">
       <data key="d7">[958313000, 958313001, 958312999]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">[False, True]</data>
       <data key="d15">53.496</data>
       <data key="d16">LINESTRING (-73.6812196 42.7306724, -73.6812122 42.7307139, -73.6812019 42.7307707, -73.6811604 42.730969, -73.6809167 42.7309402)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">8.0</data>
+      <data key="d17">35.2</data>
+      <data key="d18">5.5</data>
     </edge>
     <edge source="4374185213" target="953286954" id="0">
       <data key="d7">439721116</data>
@@ -8961,12 +8969,12 @@
     <edge source="2915338628" target="953286973" id="0">
       <data key="d7">[288217480, 104737290, 288217478]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">14.503</data>
       <data key="d16">LINESTRING (-73.6826036 42.7304837, -73.6826009 42.7304992, -73.6826012 42.7305941, -73.6826011 42.730614)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.5</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="2915338628" target="2915338627" id="0">
@@ -9115,12 +9123,12 @@
     <edge source="1208042708" target="8866962072" id="0">
       <data key="d7">[104737194, 104737396]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">[False, True]</data>
       <data key="d15">36.473</data>
       <data key="d16">LINESTRING (-73.6840453 42.7311301, -73.6839137 42.7311126, -73.6837237 42.7310954, -73.6837033 42.7310536, -73.6836434 42.7310455)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">5.4</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.7</data>
     </edge>
     <edge source="1208041826" target="1208043540" id="0">
       <data key="d7">287981177</data>
@@ -9145,12 +9153,12 @@
     <edge source="1208041826" target="953287079" id="0">
       <data key="d7">[287981184, 287981185, 287981178]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">15.484</data>
       <data key="d16">LINESTRING (-73.6821069 42.7305662, -73.6821163 42.7305929, -73.6821451 42.7306739, -73.6821572 42.7307004)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.3</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.6</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208044224" target="2915338629" id="0">
@@ -9346,12 +9354,12 @@
     <edge source="4203300675" target="1208042123" id="0">
       <data key="d7">[299562132, 299562133, 299562134, 299562135, 299562138]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">18.654999999999998</data>
       <data key="d16">LINESTRING (-73.6828917 42.7306178, -73.682906 42.7306322, -73.682948 42.7306709, -73.6829732 42.7306956, -73.6830179 42.7307368, -73.6830312 42.7307506)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.9</data>
     </edge>
     <edge source="4203300675" target="953287163" id="0">
       <data key="d7">420398486</data>
@@ -9486,12 +9494,12 @@
     <edge source="1208043294" target="2867884580" id="0">
       <data key="d7">[282837629, 244908050, 104737186, 306463322]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">[False, True]</data>
       <data key="d15">29.089000000000002</data>
       <data key="d16">LINESTRING (-73.6788948 42.7305337, -73.6788731 42.7305318, -73.6786617 42.7305115, -73.6786178 42.7305085, -73.6785735 42.7305046, -73.6785417 42.7305001)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">4.3</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.0</data>
     </edge>
     <edge source="1208041788" target="1208041846" id="0">
       <data key="d7">104737207</data>
@@ -9787,12 +9795,12 @@
     <edge source="1208042810" target="1208042357" id="0">
       <data key="d7">[288217492, 104737276, 288217493]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">54.574</data>
       <data key="d16">LINESTRING (-73.6818511 42.7315841, -73.6818567 42.7314543, -73.6819504 42.7313059, -73.6820607 42.7313164, -73.6820728 42.731278, -73.6820975 42.7312615, -73.6821207 42.7312418, -73.6821404 42.7312206)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">8.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">5.6</data>
     </edge>
     <edge source="2917723151" target="1208042894" id="0">
       <data key="d7">104737229</data>
@@ -10337,22 +10345,22 @@
     <edge source="2867884580" target="1208043294" id="0">
       <data key="d7">[244908050, 104737186, 306463322, 282837629]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">[False, True]</data>
       <data key="d15">29.089000000000002</data>
       <data key="d16">LINESTRING (-73.6785417 42.7305001, -73.6785735 42.7305046, -73.6786178 42.7305085, -73.6786617 42.7305115, -73.6788731 42.7305318, -73.6788948 42.7305337)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">4.3</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.0</data>
     </edge>
     <edge source="2867884580" target="2867884585" id="0">
       <data key="d7">[282843322, 282843323, 282843324, 282843325, 282843326]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">58.49300000000001</data>
       <data key="d16">LINESTRING (-73.6785417 42.7305001, -73.6785344 42.7305399, -73.6785276 42.7305805, -73.6785208 42.7306219, -73.6785771 42.7306276, -73.6785279 42.7309155, -73.6785077 42.7309853)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">8.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">6.0</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="2867884580" target="1208041845" id="0">
@@ -10369,12 +10377,12 @@
     <edge source="2867884580" target="1208043491" id="0">
       <data key="d7">[958313003, 104737342]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">20.211</data>
       <data key="d16">LINESTRING (-73.6785417 42.7305001, -73.6785489 42.7304459, -73.6785168 42.7303738, -73.6784849 42.730328)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.0</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.1</data>
     </edge>
     <edge source="3114201548" target="1208044176" id="0">
       <data key="d7">104737207</data>
@@ -10827,32 +10835,32 @@
     <edge source="1208042123" target="4203300675" id="0">
       <data key="d7">[299562132, 299562133, 299562134, 299562135, 299562138]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">18.655</data>
       <data key="d16">LINESTRING (-73.6830312 42.7307506, -73.6830179 42.7307368, -73.6829732 42.7306956, -73.682948 42.7306709, -73.682906 42.7306322, -73.6828917 42.7306178)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.9</data>
     </edge>
     <edge source="1208042123" target="1208041938" id="0">
       <data key="d7">[104737318, 299562136, 299562137, 299562138, 299562139, 299562140, 299562141]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">32.001</data>
       <data key="d16">LINESTRING (-73.6830312 42.7307506, -73.6830445 42.7307635, -73.6830945 42.7308109, -73.683102 42.7308178, -73.6831528 42.7308619, -73.6832015 42.7309087, -73.6832143 42.7309295, -73.6832223 42.7309494, -73.6832287 42.7309917)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">4.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.3</data>
     </edge>
     <edge source="1208042123" target="1208042121" id="0">
       <data key="d7">[674539882, 674539883, 104737269]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">41.870000000000005</data>
       <data key="d16">LINESTRING (-73.6830312 42.7307506, -73.6832599 42.7306177, -73.6832812 42.7305975, -73.6833101 42.730544, -73.6833284 42.7305102, -73.6833395 42.7304897, -73.6833129 42.7304826)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">6.3</data>
+      <data key="d17">35.2</data>
+      <data key="d18">4.3</data>
     </edge>
     <edge source="8552328207" target="4645967817" id="0">
       <data key="d7">104737245</data>
@@ -11560,12 +11568,12 @@
     <edge source="1208043491" target="2867884580" id="0">
       <data key="d7">[958313003, 104737342]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">20.211</data>
       <data key="d16">LINESTRING (-73.6784849 42.730328, -73.6785168 42.7303738, -73.6785489 42.7304459, -73.6785417 42.7305001)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.0</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.1</data>
     </edge>
     <edge source="1208042106" target="8759592250" id="0">
       <data key="d7">104737267</data>
@@ -11890,12 +11898,12 @@
     <edge source="1208042121" target="1208042123" id="0">
       <data key="d7">[674539882, 674539883, 104737269]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">41.87</data>
       <data key="d16">LINESTRING (-73.6833129 42.7304826, -73.6833395 42.7304897, -73.6833284 42.7305102, -73.6833101 42.730544, -73.6832812 42.7305975, -73.6832599 42.7306177, -73.6830312 42.7307506)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">6.3</data>
+      <data key="d17">35.2</data>
+      <data key="d18">4.3</data>
     </edge>
     <edge source="1208043253" target="1208042123" id="0">
       <data key="d7">674539882</data>
@@ -12187,12 +12195,12 @@
     <edge source="1208042170" target="2521799095" id="0">
       <data key="d7">[282837633, 282837634, 282837635, 282837636, 282837637, 104737193]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">26.399</data>
       <data key="d16">LINESTRING (-73.6810467 42.7306392, -73.6809189 42.7306239, -73.6808854 42.7306192, -73.680845 42.730615, -73.6808227 42.7306126, -73.6807675 42.7306064, -73.6807275 42.7306021)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.9</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.7</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208042170" target="1208043132" id="0">
@@ -12228,12 +12236,12 @@
     <edge source="2521799095" target="1208042170" id="0">
       <data key="d7">[282837633, 282837634, 282837635, 282837636, 282837637, 104737193]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">26.399</data>
       <data key="d16">LINESTRING (-73.6807275 42.7306021, -73.6807675 42.7306064, -73.6808227 42.7306126, -73.680845 42.730615, -73.6808854 42.7306192, -73.6809189 42.7306239, -73.6810467 42.7306392)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.9</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.7</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208043132" target="2915338653" id="0">
@@ -12567,12 +12575,12 @@
     <edge source="1208043893" target="1208042732" id="0">
       <data key="d7">[54356099, 104737255]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">42.263</data>
       <data key="d16">LINESTRING (-73.6753731 42.7289839, -73.6757192 42.7291937, -73.6757459 42.7292074, -73.6757806 42.7292148)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">6.3</data>
+      <data key="d17">35.2</data>
+      <data key="d18">4.3</data>
     </edge>
     <edge source="1208043893" target="1208042253" id="0">
       <data key="d7">104737356</data>
@@ -12829,23 +12837,23 @@
     <edge source="2869694845" target="1208042685" id="0">
       <data key="d7">[283050483, 104737260]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">8.735</data>
       <data key="d16">LINESTRING (-73.6786306 42.7297521, -73.6785998 42.7297487, -73.678525 42.7297397)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.3</data>
+      <data key="d17">35.2</data>
+      <data key="d18">0.9</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="2869694845" target="1208043928" id="0">
       <data key="d7">[283050481, 283050482]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">20.115</data>
       <data key="d16">LINESTRING (-73.6786306 42.7297521, -73.6786037 42.729885, -73.6785941 42.729931)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.0</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.1</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208042348" target="1208043800" id="0">
@@ -12997,12 +13005,12 @@
     <edge source="1208042357" target="1208042810" id="0">
       <data key="d7">[288217492, 288217493, 104737276]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">54.574</data>
       <data key="d16">LINESTRING (-73.6821404 42.7312206, -73.6821207 42.7312418, -73.6820975 42.7312615, -73.6820728 42.731278, -73.6820607 42.7313164, -73.6819504 42.7313059, -73.6818567 42.7314543, -73.6818511 42.7315841)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">8.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">5.6</data>
     </edge>
     <edge source="1208042357" target="2917723164" id="0">
       <data key="d7">288219009</data>
@@ -13198,23 +13206,23 @@
     <edge source="1208043492" target="8759698528" id="0">
       <data key="d7">[104737250, 282843333, 282843334]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">14.192</data>
       <data key="d16">LINESTRING (-73.6771282 42.7300331, -73.6771854 42.7300423, -73.6772786 42.7300566, -73.6772979 42.7300604)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.1</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.5</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208043492" target="1208042673" id="0">
       <data key="d7">[282843330, 282843331, 104737357]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">23.382</data>
       <data key="d16">LINESTRING (-73.6771282 42.7300331, -73.6770728 42.7301386, -73.6770486 42.730212, -73.6770462 42.7302336)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.5</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.4</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208042401" target="2915338628" id="0">
@@ -13363,12 +13371,12 @@
     <edge source="1208042883" target="2869694846" id="0">
       <data key="d7">[283123272, 283420315, 104737324]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">25.152</data>
       <data key="d16">LINESTRING (-73.6784202 42.7295069, -73.6784075 42.7295634, -73.6785428 42.7295789, -73.6785365 42.7296063, -73.6785274 42.7296463)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.6</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208042883" target="2882579034" id="0">
@@ -13407,12 +13415,12 @@
     <edge source="2870374449" target="2870374454" id="0">
       <data key="d7">[283123275, 283123276, 283123277]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">14.329</data>
       <data key="d16">LINESTRING (-73.6781683 42.729435, -73.678159 42.7294856, -73.678152 42.7295175, -73.6781421 42.7295624)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.1</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.5</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208043963" target="1208043691" id="0">
@@ -13826,12 +13834,12 @@
     <edge source="8552328205" target="8866962053" id="0">
       <data key="d7">[958312977, 921149133]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">19.662</data>
       <data key="d16">LINESTRING (-73.6824535 42.7317285, -73.6825723 42.7317425, -73.6825802 42.7317434, -73.6826912 42.7317565)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.9</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.0</data>
     </edge>
     <edge source="1208042479" target="1208042912" id="0">
       <data key="d7">104737301</data>
@@ -14051,12 +14059,12 @@
     <edge source="1208042553" target="2872820235" id="0">
       <data key="d7">[104737241, 283420322, 283420323]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">18.94</data>
       <data key="d16">LINESTRING (-73.6797877 42.7297348, -73.6799544 42.7297538, -73.6799891 42.7297577, -73.6800168 42.7297611)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.9</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208042553" target="2872820235" id="1">
@@ -14095,23 +14103,23 @@
     <edge source="2882579034" target="2882579030" id="0">
       <data key="d7">[284529301, 284529302, 284529303]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">13.683</data>
       <data key="d16">LINESTRING (-73.6795755 42.7296493, -73.6795815 42.7296197, -73.6795966 42.7296214, -73.6796811 42.7296298, -73.679707 42.7296328)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.0</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.4</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="2872820235" target="1208042553" id="0">
       <data key="d7">[104737241, 283420322, 283420323]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">18.939999999999998</data>
       <data key="d16">LINESTRING (-73.6800168 42.7297611, -73.6799891 42.7297577, -73.6799544 42.7297538, -73.6797877 42.7297348)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.9</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="2872820235" target="1208042553" id="1">
@@ -14170,12 +14178,12 @@
     <edge source="8552328202" target="8866962053" id="0">
       <data key="d7">[958312976, 265353473, 921149134]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">23.928</data>
       <data key="d16">LINESTRING (-73.682918 42.7318575, -73.68287 42.7318497, -73.6827582 42.7318316, -73.6827099 42.7317587, -73.6826912 42.7317565)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.6</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.4</data>
     </edge>
     <edge source="1208042566" target="10069778978" id="0">
       <data key="d7">104737323</data>
@@ -14505,12 +14513,12 @@
     <edge source="1208042673" target="1208043492" id="0">
       <data key="d7">[282843330, 282843331, 104737357]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">23.381999999999998</data>
       <data key="d16">LINESTRING (-73.6770462 42.7302336, -73.6770486 42.730212, -73.6770728 42.7301386, -73.6771282 42.7300331)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.5</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.4</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="8759698527" target="1208042673" id="0">
@@ -14569,12 +14577,12 @@
     <edge source="1208043324" target="2867884902" id="0">
       <data key="d7">[282843341, 958903365, 282843343]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">9.51</data>
       <data key="d16">LINESTRING (-73.6769414 42.7302213, -73.6769459 42.7301999, -73.6769493 42.7301853, -73.6769069 42.7301474)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.4</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.0</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208042685" target="1208043958" id="0">
@@ -14591,23 +14599,23 @@
     <edge source="1208042685" target="2869694845" id="0">
       <data key="d7">[283050483, 104737260]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">8.735</data>
       <data key="d16">LINESTRING (-73.678525 42.7297397, -73.6785998 42.7297487, -73.6786306 42.7297521)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.3</data>
+      <data key="d17">35.2</data>
+      <data key="d18">0.9</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208042685" target="2869694846" id="0">
       <data key="d7">[283420315, 958903373, 958903374]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">10.818</data>
       <data key="d16">LINESTRING (-73.678525 42.7297397, -73.6785326 42.7297068, -73.6785399 42.729675, -73.6785421 42.7296655, -73.6785274 42.7296463)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.6</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.1</data>
     </edge>
     <edge source="1208043958" target="1208043928" id="0">
       <data key="d7">104737184</data>
@@ -14654,22 +14662,22 @@
     <edge source="2869694846" target="1208042685" id="0">
       <data key="d7">[283420315, 958903373, 958903374]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">10.818</data>
       <data key="d16">LINESTRING (-73.6785274 42.7296463, -73.6785421 42.7296655, -73.6785399 42.729675, -73.6785326 42.7297068, -73.678525 42.7297397)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.6</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.1</data>
     </edge>
     <edge source="2869694846" target="1208042883" id="0">
       <data key="d7">[283123272, 283420315, 104737324]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">25.152</data>
       <data key="d16">LINESTRING (-73.6785274 42.7296463, -73.6785365 42.7296063, -73.6785428 42.7295789, -73.6784075 42.7295634, -73.6784202 42.7295069)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.6</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208042697" target="3117157547" id="0">
@@ -14745,22 +14753,22 @@
     <edge source="8866962072" target="4645967817" id="0">
       <data key="d7">[104737194, 104737245]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">14.677</data>
       <data key="d16">LINESTRING (-73.6836434 42.7310455, -73.6835041 42.7310267, -73.6834666 42.7310219)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.5</data>
     </edge>
     <edge source="8866962072" target="1208042708" id="0">
       <data key="d7">[104737194, 104737396]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">[False, True]</data>
       <data key="d15">36.473</data>
       <data key="d16">LINESTRING (-73.6836434 42.7310455, -73.6837033 42.7310536, -73.6837237 42.7310954, -73.6839137 42.7311126, -73.6840453 42.7311301)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">5.4</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.7</data>
     </edge>
     <edge source="8866962072" target="8866962076" id="0">
       <data key="d7">958312985</data>
@@ -14775,12 +14783,12 @@
     <edge source="1208042712" target="2032237569" id="0">
       <data key="d7">[283275176, 104737281, 283275177]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">14.747</data>
       <data key="d16">LINESTRING (-73.6821885 42.7291648, -73.6821351 42.729155, -73.6820664 42.7291505, -73.6820103 42.7291454)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.5</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208042712" target="2926254412" id="0">
@@ -14827,12 +14835,12 @@
     <edge source="2032237569" target="1208042712" id="0">
       <data key="d7">[283275176, 283275177, 104737281]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">14.747000000000002</data>
       <data key="d16">LINESTRING (-73.6820103 42.7291454, -73.6820664 42.7291505, -73.6821351 42.729155, -73.6821885 42.7291648)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.5</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="2926254412" target="2926254411" id="0">
@@ -14889,23 +14897,23 @@
     <edge source="2871629340" target="1208043349" id="0">
       <data key="d7">[283275175, 283275174, 283420311]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">31.252000000000002</data>
       <data key="d16">LINESTRING (-73.6821747 42.7289827, -73.6822475 42.7289744, -73.6823237 42.7289562, -73.6824002 42.7289335, -73.6824386 42.728918, -73.6824693 42.7289042, -73.6825226 42.728875)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">4.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.2</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="2871629340" target="1208043941" id="0">
       <data key="d7">[283420312, 283275180, 283420311]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">20.796999999999997</data>
       <data key="d16">LINESTRING (-73.6821747 42.7289827, -73.6821179 42.7289895, -73.6820894 42.7289932, -73.6819852 42.7289994, -73.6819222 42.7290057)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.1</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.1</data>
     </edge>
     <edge source="1208043605" target="1208044208" id="0">
       <data key="d7">561647565</data>
@@ -15263,14 +15271,14 @@
     <edge source="1208042780" target="2521799142" id="0">
       <data key="d7">[244908049, 283123268, 283123269, 283123271]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">32.307</data>
       <data key="d16">LINESTRING (-73.6778928 42.7295325, -73.6779076 42.7294632, -73.6779702 42.7294527, -73.6778465 42.7294407, -73.6778493 42.7294221, -73.6779055 42.7293747)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">4.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.3</data>
       <data key="d20">yes</data>
-      <data key="d23">['3', '1.5']</data>
+      <data key="d23">['1.5', '3']</data>
     </edge>
     <edge source="2871629390" target="1208042792" id="0">
       <data key="d7">283275198</data>
@@ -15440,12 +15448,12 @@
     <edge source="4374185194" target="4203300649" id="0">
       <data key="d7">[420398477, 1125311878, 1125311879]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">18.000999999999998</data>
       <data key="d16">LINESTRING (-73.6784215 42.7278857, -73.6784011 42.7279584, -73.6783944 42.7279823, -73.6783773 42.7280443)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.8</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208043864" target="4203300661" id="0">
@@ -15666,12 +15674,12 @@
     <edge source="1208042876" target="8759685414" id="0">
       <data key="d7">[104737346, 104737203, 282843348, 282843347]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">36.272</data>
       <data key="d16">LINESTRING (-73.6764554 42.7302876, -73.6763874 42.730227, -73.6762182 42.7302035, -73.6761455 42.7302157, -73.6760825 42.7302265, -73.6760576 42.7302312)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">5.4</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.7</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208042876" target="8759698519" id="0">
@@ -15709,12 +15717,12 @@
     <edge source="8759685414" target="1208042876" id="0">
       <data key="d7">[104737346, 282843347, 282843348, 104737203]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">36.272</data>
       <data key="d16">LINESTRING (-73.6760576 42.7302312, -73.6760825 42.7302265, -73.6761455 42.7302157, -73.6762182 42.7302035, -73.6763874 42.730227, -73.6764554 42.7302876)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">5.4</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.7</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="8759685414" target="8759685411" id="0">
@@ -16404,12 +16412,12 @@
     <edge source="1208043349" target="2871629340" id="0">
       <data key="d7">[283420311, 283275174, 283275175]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">31.252000000000002</data>
       <data key="d16">LINESTRING (-73.6825226 42.728875, -73.6824693 42.7289042, -73.6824386 42.728918, -73.6824002 42.7289335, -73.6823237 42.7289562, -73.6822475 42.7289744, -73.6821747 42.7289827)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">4.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.2</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208043665" target="1208043668" id="0">
@@ -16534,12 +16542,12 @@
     <edge source="2867884902" target="1208043324" id="0">
       <data key="d7">[958903365, 282843341, 282843343]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">9.51</data>
       <data key="d16">LINESTRING (-73.6769069 42.7301474, -73.6769493 42.7301853, -73.6769459 42.7301999, -73.6769414 42.7302213)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.4</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.0</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="3117629823" target="1208043326" id="0">
@@ -16841,12 +16849,12 @@
     <edge source="8759698528" target="1208043492" id="0">
       <data key="d7">[104737250, 282843333, 282843334]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">14.192</data>
       <data key="d16">LINESTRING (-73.6772979 42.7300604, -73.6772786 42.7300566, -73.6771854 42.7300423, -73.6771282 42.7300331)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.1</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.5</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="4374185211" target="4374185214" id="0">
@@ -16862,12 +16870,12 @@
     <edge source="4374185211" target="1208043495" id="0">
       <data key="d7">[921149136, 265353473, 921149137]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">89.928</data>
       <data key="d16">LINESTRING (-73.6835195 42.7316565, -73.6835434 42.73158, -73.6835109 42.7315325, -73.6832885 42.731498, -73.6831096 42.7314739, -73.6830452 42.731473, -73.6830237 42.7315499, -73.6827818 42.7315144, -73.6827297 42.7315068, -73.682689 42.7315008)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">13.4</data>
+      <data key="d17">35.2</data>
+      <data key="d18">9.2</data>
     </edge>
     <edge source="4374185211" target="4374185213" id="0">
       <data key="d7">439721110</data>
@@ -16953,12 +16961,12 @@
     <edge source="1208043635" target="10000704333" id="0">
       <data key="d7">[1091964358, 1091964359]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">12.616</data>
       <data key="d16">LINESTRING (-73.6741374 42.728095, -73.674072 42.7280856, -73.6739858 42.7280733)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.9</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.3</data>
     </edge>
     <edge source="10000704333" target="1208043976" id="0">
       <data key="d7">104737332</data>
@@ -16983,12 +16991,12 @@
     <edge source="10000704333" target="1208043635" id="0">
       <data key="d7">[1091964358, 1091964359]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">12.616</data>
       <data key="d16">LINESTRING (-73.6739858 42.7280733, -73.674072 42.7280856, -73.6741374 42.728095)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.9</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.3</data>
     </edge>
     <edge source="1208044284" target="1208043670" id="0">
       <data key="d7">104737200</data>
@@ -17083,12 +17091,12 @@
     <edge source="1208044029" target="4203300637" id="0">
       <data key="d7">[283123273, 283123274]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">73.224</data>
       <data key="d16">LINESTRING (-73.677923 42.729159, -73.6778247 42.7291425, -73.6777702 42.7291321, -73.677941 42.7286037)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">10.9</data>
+      <data key="d17">35.2</data>
+      <data key="d18">7.5</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="4374185210" target="4374185209" id="0">
@@ -17104,12 +17112,12 @@
     <edge source="4374185210" target="2867828977" id="0">
       <data key="d7">[282837639, 282837640, 282837641, 282837642, 282837643]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">9.327000000000002</data>
       <data key="d16">LINESTRING (-73.6805645 42.7308589, -73.6805611 42.7308711, -73.6805576 42.7308892, -73.6805525 42.730907, -73.6805493 42.7309208, -73.6805413 42.7309409)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.4</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.0</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="4374185210" target="1208043730" id="0">
@@ -17287,12 +17295,12 @@
     <edge source="2872820208" target="2872820210" id="0">
       <data key="d7">[283420309, 283420310]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">7.948</data>
       <data key="d16">LINESTRING (-73.6816587 42.7289829, -73.6816425 42.7290256, -73.6816351 42.7290522)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">0.8</data>
     </edge>
     <edge source="1208043928" target="10000644543" id="0">
       <data key="d7">104737184</data>
@@ -17317,12 +17325,12 @@
     <edge source="1208043928" target="2869694845" id="0">
       <data key="d7">[283050481, 283050482]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">20.115</data>
       <data key="d16">LINESTRING (-73.6785941 42.729931, -73.6786037 42.729885, -73.6786306 42.7297521)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.0</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.1</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1208043941" target="2032237569" id="0">
@@ -17338,12 +17346,12 @@
     <edge source="1208043941" target="2871629340" id="0">
       <data key="d7">[283420312, 283275180, 283420311]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">20.797</data>
       <data key="d16">LINESTRING (-73.6819222 42.7290057, -73.6819852 42.7289994, -73.6820894 42.7289932, -73.6821179 42.7289895, -73.6821747 42.7289827)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.1</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.1</data>
     </edge>
     <edge source="1208043941" target="2872820208" id="0">
       <data key="d7">283275180</data>
@@ -17562,12 +17570,12 @@
     <edge source="4203300637" target="1208044029" id="0">
       <data key="d7">[283123273, 283123274]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">73.224</data>
       <data key="d16">LINESTRING (-73.677941 42.7286037, -73.6777702 42.7291321, -73.6778247 42.7291425, -73.677923 42.729159)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">10.9</data>
+      <data key="d17">35.2</data>
+      <data key="d18">7.5</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="3117157546" target="3117157547" id="0">
@@ -18188,12 +18196,12 @@
     <edge source="3115867197" target="1212680973" id="0">
       <data key="d7">[306620296, 306620297, 306620298, 306620299, 306620300, 306620301, 306620302]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">48.098000000000006</data>
       <data key="d16">LINESTRING (-73.671955 42.7315654, -73.6717758 42.7315388, -73.6717378 42.7315322, -73.6716124 42.7315097, -73.6715654 42.731505, -73.6714496 42.7314842, -73.6714065 42.7314687, -73.6713875 42.7314588)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">7.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">4.9</data>
     </edge>
     <edge source="1212507518" target="8759592292" id="0">
       <data key="d7">105212628</data>
@@ -18401,42 +18409,42 @@
     <edge source="1212680973" target="1212681124" id="0">
       <data key="d7">[306620290, 306620291, 306620292, 1099965893, 306620294, 306620293, 306621173, 306621174]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">51.001000000000005</data>
       <data key="d16">LINESTRING (-73.6713875 42.7314588, -73.6714176 42.7314509, -73.6714597 42.7314524, -73.6715858 42.7314332, -73.6716224 42.7314268, -73.6717656 42.7314013, -73.6718011 42.7313924, -73.671884 42.7313949, -73.6719995 42.7314033)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">7.6</data>
+      <data key="d17">35.2</data>
+      <data key="d18">5.2</data>
     </edge>
     <edge source="1212680973" target="3115903692" id="0">
       <data key="d7">[105230834, 306620294, 306620295]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">11.783999999999999</data>
       <data key="d16">LINESTRING (-73.6713875 42.7314588, -73.6713465 42.7314519, -73.6712698 42.7314445, -73.671245 42.7314457)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.2</data>
     </edge>
     <edge source="1212680973" target="3115867197" id="0">
       <data key="d7">[306620296, 306620297, 306620298, 306620299, 306620300, 306620301, 306620302]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">48.098</data>
       <data key="d16">LINESTRING (-73.6713875 42.7314588, -73.6714065 42.7314687, -73.6714496 42.7314842, -73.6715654 42.731505, -73.6716124 42.7315097, -73.6717378 42.7315322, -73.6717758 42.7315388, -73.671955 42.7315654)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">7.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">4.9</data>
     </edge>
     <edge source="3115903692" target="1212680973" id="0">
       <data key="d7">[105230834, 306620294, 306620295]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">11.783999999999999</data>
       <data key="d16">LINESTRING (-73.671245 42.7314457, -73.6712698 42.7314445, -73.6713465 42.7314519, -73.6713875 42.7314588)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.2</data>
     </edge>
     <edge source="3115903692" target="3115903685" id="0">
       <data key="d7">[306621176, 306621177, 306621178]</data>
@@ -18632,23 +18640,23 @@
     <edge source="1716935379" target="1716935403" id="0">
       <data key="d7">[159581528, 289074280, 289074279]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">25.652999999999995</data>
       <data key="d16">LINESTRING (-73.6838575 42.7283523, -73.6838513 42.7283705, -73.683846 42.728385, -73.683838 42.7284008, -73.6838288 42.7284145, -73.6838182 42.7284258, -73.6838059 42.728436, -73.68379 42.7284471, -73.6837725 42.728455, -73.6837502 42.7284618, -73.6837424 42.7284634, -73.6837332 42.7284653, -73.6837022 42.7284733, -73.6836928 42.7284784, -73.683688 42.7284839, -73.683676 42.7285191)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.6</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1716935394" target="1716935412" id="0">
       <data key="d7">[159581521, 289076724, 289076725, 289076726, 289076727]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">24.683000000000003</data>
       <data key="d16">LINESTRING (-73.6839875 42.7284838, -73.6840131 42.7285046, -73.6840309 42.7285175, -73.6840478 42.7285305, -73.6840837 42.7285459, -73.6841055 42.7285516, -73.6841436 42.7285561, -73.684161 42.7285564, -73.6841693 42.7285601, -73.6841749 42.728566, -73.6841766 42.7285747, -73.6841597 42.7286188)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.5</data>
     </edge>
     <edge source="1716935394" target="1716935379" id="0">
       <data key="d7">159581521</data>
@@ -18673,23 +18681,23 @@
     <edge source="1716935403" target="1716935379" id="0">
       <data key="d7">[289074280, 159581528, 289074279]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">25.653</data>
       <data key="d16">LINESTRING (-73.683676 42.7285191, -73.683688 42.7284839, -73.6836928 42.7284784, -73.6837022 42.7284733, -73.6837332 42.7284653, -73.6837424 42.7284634, -73.6837502 42.7284618, -73.6837725 42.728455, -73.68379 42.7284471, -73.6838059 42.728436, -73.6838182 42.7284258, -73.6838288 42.7284145, -73.683838 42.7284008, -73.683846 42.728385, -73.6838513 42.7283705, -73.6838575 42.7283523)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.6</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="1716935412" target="1716935394" id="0">
       <data key="d7">[159581521, 289076724, 289076725, 289076726, 289076727]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">24.682999999999996</data>
       <data key="d16">LINESTRING (-73.6841597 42.7286188, -73.6841766 42.7285747, -73.6841749 42.728566, -73.6841693 42.7285601, -73.684161 42.7285564, -73.6841436 42.7285561, -73.6841055 42.7285516, -73.6840837 42.7285459, -73.6840478 42.7285305, -73.6840309 42.7285175, -73.6840131 42.7285046, -73.6839875 42.7284838)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.5</data>
     </edge>
     <edge source="1716935410" target="1716935394" id="0">
       <data key="d7">159581526</data>
@@ -18724,12 +18732,12 @@
     <edge source="8872845013" target="2870374469" id="1">
       <data key="d7">[958903369, 958903370, 958903371]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">[False, True]</data>
       <data key="d15">31.169</data>
       <data key="d16">LINESTRING (-73.6808463 42.7298719, -73.680816 42.7298678, -73.6808101 42.7298916, -73.6807558 42.7298844, -73.6806673 42.7298746, -73.680663 42.7298959, -73.6807363 42.729904, -73.6808053 42.7299115)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">4.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.2</data>
     </edge>
     <edge source="2872820213" target="2032237569" id="0">
       <data key="d7">283420313</data>
@@ -19008,12 +19016,12 @@
     <edge source="2872820230" target="2882579030" id="0">
       <data key="d7">[283420320, 283420318, 283420319]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">17.963</data>
       <data key="d16">LINESTRING (-73.6796756 42.7297927, -73.6796974 42.7296819, -73.6797033 42.7296517, -73.679707 42.7296328)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.8</data>
       <data key="d20">yes</data>
       <data key="d21">yes</data>
     </edge>
@@ -19071,12 +19079,12 @@
     <edge source="2870374469" target="8872845013" id="1">
       <data key="d7">[958903369, 958903370, 958903371]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">[False, True]</data>
       <data key="d15">31.169000000000004</data>
       <data key="d16">LINESTRING (-73.6808053 42.7299115, -73.6807363 42.729904, -73.680663 42.7298959, -73.6806673 42.7298746, -73.6807558 42.7298844, -73.6808101 42.7298916, -73.680816 42.7298678, -73.6808463 42.7298719)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">4.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">3.2</data>
     </edge>
     <edge source="2870374469" target="2867828947" id="0">
       <data key="d7">192678148</data>
@@ -19091,23 +19099,23 @@
     <edge source="2867828977" target="4374185210" id="0">
       <data key="d7">[282837639, 282837640, 282837641, 282837642, 282837643]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">9.327</data>
       <data key="d16">LINESTRING (-73.6805413 42.7309409, -73.6805493 42.7309208, -73.6805525 42.730907, -73.6805576 42.7308892, -73.6805611 42.7308711, -73.6805645 42.7308589)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.4</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.0</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="3117629820" target="2868461066" id="0">
       <data key="d7">[306773650, 306773651]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">8.148</data>
       <data key="d16">LINESTRING (-73.6746737 42.7291775, -73.6746245 42.7291552, -73.6745832 42.7291498)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">0.8</data>
     </edge>
     <edge source="2870374442" target="2870374443" id="0">
       <data key="d7">283123267</data>
@@ -19167,12 +19175,12 @@
     <edge source="2870374454" target="2870374449" id="0">
       <data key="d7">[283123275, 283123276, 283123277]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">14.329</data>
       <data key="d16">LINESTRING (-73.6781421 42.7295624, -73.678152 42.7295175, -73.678159 42.7294856, -73.6781683 42.729435)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.1</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.5</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="2870374454" target="2870374442" id="0">
@@ -19323,12 +19331,12 @@
     <edge source="2872820210" target="2872820208" id="0">
       <data key="d7">[283420309, 283420310]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">7.948</data>
       <data key="d16">LINESTRING (-73.6816351 42.7290522, -73.6816425 42.7290256, -73.6816587 42.7289829)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">1.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">0.8</data>
     </edge>
     <edge source="2872820228" target="2882579030" id="0">
       <data key="d7">283420318</data>
@@ -19376,24 +19384,24 @@
     <edge source="2882579030" target="2872820230" id="0">
       <data key="d7">[283420320, 283420318, 283420319]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">17.963</data>
       <data key="d16">LINESTRING (-73.679707 42.7296328, -73.6797033 42.7296517, -73.6796974 42.7296819, -73.6796756 42.7297927)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.8</data>
       <data key="d20">yes</data>
       <data key="d21">yes</data>
     </edge>
     <edge source="2882579030" target="2882579034" id="0">
       <data key="d7">[284529301, 284529302, 284529303]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">13.682999999999998</data>
       <data key="d16">LINESTRING (-73.679707 42.7296328, -73.6796811 42.7296298, -73.6795966 42.7296214, -73.6795815 42.7296197, -73.6795755 42.7296493)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.0</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.4</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="2872820239" target="2872820228" id="0">
@@ -20021,32 +20029,32 @@
     <edge source="3115903680" target="3115903685" id="0">
       <data key="d7">[306621175, 306621178, 306621179, 306621180, 306621181]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">25.552999999999997</data>
       <data key="d16">LINESTRING (-73.6718031 42.7311285, -73.6717592 42.7311196, -73.6716882 42.731109, -73.6715825 42.7310915, -73.671539 42.7310825, -73.6714993 42.7310741)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.6</data>
     </edge>
     <edge source="3115903680" target="10069778926" id="0">
       <data key="d7">[1099965892, 306621186, 306621187, 306621188]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">17.555</data>
       <data key="d16">LINESTRING (-73.6718031 42.7311285, -73.6718646 42.7311022, -73.671904 42.7310982, -73.6719507 42.7311084, -73.6719368 42.7311477)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.6</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.8</data>
     </edge>
     <edge source="3115903680" target="10069778926" id="1">
       <data key="d7">[306621184, 306621185, 306621186, 1099965892]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">16.825</data>
       <data key="d16">LINESTRING (-73.6718031 42.7311285, -73.671849 42.7311659, -73.6718803 42.7311807, -73.6719225 42.7311881, -73.6719368 42.7311477)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.5</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.7</data>
     </edge>
     <edge source="3115903685" target="3115903692" id="0">
       <data key="d7">[306621176, 306621177, 306621178]</data>
@@ -20062,12 +20070,12 @@
     <edge source="3115903685" target="3115903680" id="0">
       <data key="d7">[306621175, 306621178, 306621179, 306621180, 306621181]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">25.552999999999997</data>
       <data key="d16">LINESTRING (-73.6714993 42.7310741, -73.671539 42.7310825, -73.6715825 42.7310915, -73.6716882 42.731109, -73.6717592 42.7311196, -73.6718031 42.7311285)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.8</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.6</data>
     </edge>
     <edge source="3115903685" target="3115904131" id="0">
       <data key="d7">[306621189, 306621190, 306621191]</data>
@@ -20093,22 +20101,22 @@
     <edge source="10069778926" target="3115903680" id="0">
       <data key="d7">[306621184, 306621185, 306621186, 1099965892]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">16.825</data>
       <data key="d16">LINESTRING (-73.6719368 42.7311477, -73.6719225 42.7311881, -73.6718803 42.7311807, -73.671849 42.7311659, -73.6718031 42.7311285)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.5</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.7</data>
     </edge>
     <edge source="10069778926" target="3115903680" id="1">
       <data key="d7">[306621186, 306621187, 1099965892, 306621188]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">17.555</data>
       <data key="d16">LINESTRING (-73.6719368 42.7311477, -73.6719507 42.7311084, -73.671904 42.7310982, -73.6718646 42.7311022, -73.6718031 42.7311285)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.6</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.8</data>
     </edge>
     <edge source="3115904131" target="3115903694" id="0">
       <data key="d7">306621182</data>
@@ -20449,12 +20457,12 @@
     <edge source="4203300649" target="4374185194" id="0">
       <data key="d7">[420398477, 1125311878, 1125311879]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">18.000999999999998</data>
       <data key="d16">LINESTRING (-73.6783773 42.7280443, -73.6783944 42.7279823, -73.6784011 42.7279584, -73.6784215 42.7278857)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.7</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.8</data>
       <data key="d20">yes</data>
     </edge>
     <edge source="4203300651" target="4374185194" id="0">
@@ -20853,12 +20861,12 @@
     <edge source="4645967817" target="8866962072" id="0">
       <data key="d7">[104737194, 104737245]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">14.677</data>
       <data key="d16">LINESTRING (-73.6834666 42.7310219, -73.6835041 42.7310267, -73.6836434 42.7310455)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.2</data>
+      <data key="d17">35.2</data>
+      <data key="d18">1.5</data>
     </edge>
     <edge source="4645967817" target="4645967823" id="0">
       <data key="d7">470394862</data>
@@ -21352,22 +21360,22 @@
     <edge source="8866962053" target="8552328202" id="0">
       <data key="d7">[958312976, 265353473, 921149134]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">False</data>
       <data key="d15">23.928000000000004</data>
       <data key="d16">LINESTRING (-73.6826912 42.7317565, -73.6827099 42.7317587, -73.6827582 42.7318316, -73.68287 42.7318497, -73.682918 42.7318575)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">3.6</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.4</data>
     </edge>
     <edge source="8866962053" target="8552328205" id="0">
       <data key="d7">[958312977, 921149133]</data>
       <data key="d8">False</data>
-      <data key="d12">['footway', 'steps']</data>
+      <data key="d12">['steps', 'footway']</data>
       <data key="d14">True</data>
       <data key="d15">19.662</data>
       <data key="d16">LINESTRING (-73.6826912 42.7317565, -73.6825802 42.7317434, -73.6825723 42.7317425, -73.6824535 42.7317285)</data>
-      <data key="d17">24.1</data>
-      <data key="d18">2.9</data>
+      <data key="d17">35.2</data>
+      <data key="d18">2.0</data>
     </edge>
     <edge source="8552328216" target="8552328215" id="0">
       <data key="d7">104737206</data>
@@ -21774,13 +21782,16 @@
     <edge source="28" target="1208042425" id="0">
       <data key="d17">nan</data>
     </edge>
-    <edge source="29" target="953287163" id="0">
+    <edge source="29" target="1208042121" id="0">
       <data key="d17">nan</data>
     </edge>
-    <edge source="30" target="8552328207" id="0">
+    <edge source="30" target="953287163" id="0">
       <data key="d17">nan</data>
     </edge>
-    <edge source="31" target="8866962056" id="0">
+    <edge source="31" target="8552328207" id="0">
+      <data key="d17">nan</data>
+    </edge>
+    <edge source="32" target="8866962056" id="0">
       <data key="d17">nan</data>
     </edge>
     <data key="d0">epsg:4326</data>

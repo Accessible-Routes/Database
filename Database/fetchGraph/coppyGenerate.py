@@ -1,19 +1,21 @@
-import json
-import math
-
-import geopandas as gpd
+import matplotlib.pyplot as plt
 import networkx as nx
 import osmnx as ox
-import pickle
+import json
+from entrancePoint import entrancePoint
+import geopandas as gpd
+from shapely.geometry import  Point
 import pandas as pd
-from .entrancePoint import entrancePoint
-
+import geopandas as gpd
+import numpy as np
+import math
 
 def testPlotRoute(RPI):
       orig = ox.nearest_nodes(RPI, 42.7324294, -73.6905807)
       dest = ox.nearest_nodes(RPI, 42.7338301, -73.6847063)
       #1208042175, "lat": 42.7268945, "lon": -73.6737245
       route = nx.shortest_path(RPI, orig, dest, 'travel_time')
+      print(route)
       return route
 
 def closestNode(G, x, y, orig_id):
@@ -26,7 +28,7 @@ def closestNode(G, x, y, orig_id):
         tmp_dist = math.sqrt((tmp_y - y)**2 + (tmp_x - x)**2)
 
         if tmp_dist < min_dist and orig_id != node and tmp_dist != 0.0:
-            # print(f"({x}, {y}) : {orig_id} --> ({tmp_x}, {tmp_y}){tmp_dist} --> {node}")
+            print(f"({x}, {y}) : {orig_id} --> ({tmp_x}, {tmp_y}){tmp_dist} --> {node}")
             closest_node_id = node
             min_dist = tmp_dist
     return closest_node_id
@@ -78,49 +80,25 @@ def plotGraph(new_nodes):
             tmp_y = float(row['y'])          
             tmp_dest_id = closestNode(RPI, tmp_x, tmp_y, tmp_orig_id)
             if tmp_orig_id != 33:
-                  RPI.add_edge(tmp_dest_id, tmp_orig_id)
                   RPI.add_edge(tmp_orig_id, tmp_dest_id)   
       RPI = ox.add_edge_speeds(RPI,5)   
       G = RPI
-      
-      with open("graph.p", 'wb') as f:
-            pickle.dump(G, f)
+      print(RPI.nodes)
+      ox.save_graphml(G, "test.graphml")
       return RPI
 
-def readGraphFromFile():
-      with open("routedb/graph.p", 'rb') as f: 
-            G_loaded = pickle.load(f)
-            return G_loaded
-
-def routemaker(start, end):
-      try:
-            place = 'Rensselaer Polytechnic Institute'
-            new_nodes = createNodeArray('routedb/buildingEntrance.json')
-            G = readGraphFromFile()
-            for a, b,c,d in G.edges(keys = True, data = True):
-            #print(d['highway'])
-            #print(type(d))
-                  if 'highway' in d.keys():
-                        if 'steps' in d['highway']:
-                              edgesToRemove.append((a, b))
-            for i in edgesToRemove:
-                  G.remove_edge(i[0], i[1])
-                  nodes, edges = ox.graph_to_gdfs(G, nodes=True, edges=True) 
-                  entrance_df = nodes[nodes['highway'].str.contains("Entrance", na=False)]
-                  start_node = int(entrance_df.loc[entrance_df['highway'] == start]['id'].values[0].item())
-                  end_node = int(entrance_df.loc[entrance_df['highway'] == end]['id'].values[0].item())
-
-                  route = nx.shortest_path(G, start_node, end_node, 'travel_time')
-            
-                  route_list = []
-                  for i in route:
-                        node = {}
-                        node['latitude'] = G.nodes[i]['y']
-                        node['longitude'] = G.nodes[i]['x']
-                        route_list.append(node)
-                  
-                  return route_list[1:-1]
-      except Exception as e:
-            print('exception', e)
-            return []
+if __name__ == "__main__":
+      place = 'Rensselaer Polytechnic Institute'
+      new_nodes = createNodeArray('Database/fetchGraph/buildingEntrance.json')
+      test = plotGraph(new_nodes)
+      print(test.nodes)
+      start_node = 31
+      end_node = 1208041960
+      route = nx.shortest_path(test, start_node, end_node, 'travel_time')
+      #shortest_path = nx.shortest_path(test, source=start_node, target=end_node)
+      print(route)
+      #ox.plot_graph(test)
+      filepath = "./data/piedmont.graphml"
+#ox.save_graphml(test, filepath)
+#G = ox.load_graphml(filepath)
       
