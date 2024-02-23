@@ -113,20 +113,27 @@ def routemaker(start, end):
       try:
             place = 'Rensselaer Polytechnic Institute'
             new_nodes = createNodeArray('routedb/buildingEntrance.json')
-            test = readGraphFromFile()
-
-            nodes, edges = ox.graph_to_gdfs(test, nodes=True, edges=True) 
+            G = readGraphFromFile()
+            for a, b,c,d in G.edges(keys = True, data = True):
+            #print(d['highway'])
+            #print(type(d))
+            if 'highway' in d.keys():
+                  if 'steps' in d['highway']:
+                        edgesToRemove.append((a, b))
+      for i in edgesToRemove:
+            G.remove_edge(i[0], i[1])
+            nodes, edges = ox.graph_to_gdfs(G, nodes=True, edges=True) 
             entrance_df = nodes[nodes['highway'].str.contains("Entrance", na=False)]
             start_node = int(entrance_df.loc[entrance_df['highway'] == start]['id'].values[0].item())
             end_node = int(entrance_df.loc[entrance_df['highway'] == end]['id'].values[0].item())
 
-            route = nx.shortest_path(test, start_node, end_node, 'travel_time')
+            route = nx.shortest_path(G, start_node, end_node, 'travel_time')
       
             route_list = []
             for i in route:
                   node = {}
-                  node['latitude'] = test.nodes[i]['y']
-                  node['longitude'] = test.nodes[i]['x']
+                  node['latitude'] = G.nodes[i]['y']
+                  node['longitude'] = G.nodes[i]['x']
                   route_list.append(node)
             
             return route_list[1:-1]
@@ -134,5 +141,5 @@ def routemaker(start, end):
             print('exception', e)
             return []
       
-new_nodes = createNodeArray('/home/dennib2/Database/Django/backend/routedb/buildingEntrance.json')
-plotGraph(new_nodes)
+# new_nodes = createNodeArray('/home/dennib2/Database/Django/backend/routedb/buildingEntrance.json')
+# plotGraph(new_nodes)
