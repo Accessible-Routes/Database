@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1MgcfkuajKpPSsub__9OEOe-isj5M-R4">
+	<name>Stairs On Campus</name>
+	<description>Marks the stairs on RPI campus</description>
+	<Schema name="__managed_schema" id="__managed_schema">
+		<SimpleField type="string" name="str:bmFtZQ==">
+			<displayName>name</displayName>
+		</SimpleField>
+		<SimpleField type="string" name="str:ZGVzY3JpcHRpb24=">
+			<displayName>description</displayName>
+		</SimpleField>
+	</Schema>
+	<gx:CascadingStyle kml:id="__managed_style_28770417E12EC52FB2B5">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_159D145F2E2EC52FB2B5">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=0288d1&amp;id=1899&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff000000</color>
+				<width>1.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4d000000</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_023AA346362EC52FB2B5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_159D145F2E2EC52FB2B5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_28770417E12EC52FB2B5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2AC80C51AF2EC52FB2B4">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_183EB177A72EC52FB2B4">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_063F4D7D2E2EC52FB2B4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_183EB177A72EC52FB2B4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2AC80C51AF2EC52FB2B4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="4b469cc3_0">
+		<name>Stairs</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_063F4D7D2E2EC52FB2B4</styleUrl>
+		<Placemark id="4b469cc3_4B5F6CF6B1A33EEE">
+			<name>To West Hall Top</name>
+			<description><![CDATA[<div><b>name</b>: To West Hall Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">To West Hall Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.682524,42.7313293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F6D6C01F709E2">
+			<name>To West Hall Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: To West Hall Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">To West Hall Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6826574,42.7314431,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F6E556A0382B0">
+			<name>By Walker Top
+</name>
+			<description><![CDATA[<div><b>name</b>: By Walker Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">By Walker Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6829173,42.7306459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F6E98951778F5">
+			<name>By Walker Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: By Walker Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">By Walker Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6829568,42.7306814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F6EE288A50739">
+			<name>Walker to Pitts Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Walker to Pitts Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Walker to Pitts Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68305530000001,42.7307758,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F6F0CD1D41417">
+			<name>Walker to Pitts Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Walker to Pitts Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Walker to Pitts Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6831686,42.7308773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F6F435FDA0384">
+			<name>By Pitts Top
+</name>
+			<description><![CDATA[<div><b>name</b>: By Pitts Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">By Pitts Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68320610000001,42.7309201,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F6F6E67D66FB1">
+			<name>By Pitts Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: By Pitts Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">By Pitts Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6832356,42.7309625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F6FDCCE732FCA">
+			<name>Front of Pitts Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Front of Pitts Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Front of Pitts Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6834041,42.7310283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F700DFC3971CC">
+			<name>Front of Pitts Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Front of Pitts Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Front of Pitts Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6834638,42.7310337,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F7058BD60A1E6">
+			<name>Next to Pitts Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Next to Pitts Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Next to Pitts Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6835205,42.7310441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F70843385446F">
+			<name>Next to Pitts Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Next to Pitts Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Next to Pitts Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6836224,42.7310574,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F71AE3D90504E">
+			<name>Playhouse Front Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Playhouse Front Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Playhouse Front Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.677924,42.7291733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F71EA4B3D4B7F">
+			<name>Playhouse Front Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Playhouse Front Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Playhouse Front Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6778321,42.7291546,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F72374321A855">
+			<name>Walkover Bridge West Side Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Walkover Bridge West Side Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Walkover Bridge West Side Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67787509999999,42.72946,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F728499F6AC94">
+			<name>Walkover Bridge West Side Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Walkover Bridge West Side Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Walkover Bridge West Side Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67792059999999,42.7294802,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F72DADA2B37A9">
+			<name>Quad Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Quad Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Quad Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6778667,42.7301628,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F72F5039E278E">
+			<name>Quad Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Quad Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Quad Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6779264,42.7301776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F737D9D671AFD">
+			<name>Quad to 87 Gym Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Quad to 87 Gym Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Quad to 87 Gym Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67862239999999,42.730532,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F73A3BDDBBB9E">
+			<name>Quad to 87 Gym Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Quad to 87 Gym Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Quad to 87 Gym Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6786915,42.7305374,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F7439BB4AF74F">
+			<name>North Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: North Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">North Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6801639,42.7313203,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F7621C4C74954">
+			<name>North Top
+</name>
+			<description><![CDATA[<div><b>name</b>: North Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">North Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6801062,42.731541,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F77761EE11893">
+			<name>Commons Stairs Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Commons Stairs Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Commons Stairs Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6738265,42.7283582,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F77A8F9B9F3FC">
+			<name>Commons Stairs Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Commons Stairs Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Commons Stairs Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6738225,42.7283739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F78522E51D500">
+			<name>BARH Bottom North
+</name>
+			<description><![CDATA[<div><b>name</b>: BARH Bottom North
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">BARH Bottom North
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.671892,42.7311889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F78840DB1E726">
+			<name>BARH Bottom South
+</name>
+			<description><![CDATA[<div><b>name</b>: BARH Bottom South
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">BARH Bottom South
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6719282,42.7310954,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F78B1BF676C06">
+			<name>BARH Top (North and South)
+</name>
+			<description><![CDATA[<div><b>name</b>: BARH Top (North and South)
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">BARH Top (North and South)
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67154069999999,42.7310885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F792099DD8D2C">
+			<name>North BARH Bottom South
+</name>
+			<description><![CDATA[<div><b>name</b>: North BARH Bottom South
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">North BARH Bottom South
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6718353,42.7313932,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F7956A643F73E">
+			<name>North BARH Bottom North
+</name>
+			<description><![CDATA[<div><b>name</b>: North BARH Bottom North
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">North BARH Bottom North
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67178029999999,42.731542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F797EC9502DBA">
+			<name>North BARH Top (North and South)
+</name>
+			<description><![CDATA[<div><b>name</b>: North BARH Top (North and South)
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">North BARH Top (North and South)
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6712479,42.7314464,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F7BC22BE03403">
+			<name>Thompson to Wiltsie Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Thompson to Wiltsie Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Thompson to Wiltsie Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6654868,42.7337685,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F7C03B8C52DE9">
+			<name>Thompson to Wiltsie Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Thompson to Wiltsie Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Thompson to Wiltsie Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6653644,42.7337783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F7CAEED0604BC">
+			<name>Wiltsie Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Wiltsie Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Wiltsie Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.66509069999999,42.7336997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F7CD29EA122AB">
+			<name>Wiltsie Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Wiltsie Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Wiltsie Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6650008,42.7336987,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F7E2C0FC0D49D">
+			<name>Amos Eaton to Walker Top</name>
+			<description><![CDATA[<div><b>name</b>: Amos Eaton to Walker Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Amos Eaton to Walker Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6826121,42.7305056,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F7EE9C0EF2676">
+			<name>Amos Eaton to Walker Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Amos Eaton to Walker Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Amos Eaton to Walker Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6826093,42.7306065,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8037AAD8E68A">
+			<name>Walker Stairs</name>
+			<description><![CDATA[<div><b>name</b>: Walker Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Walker Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68273600000001,42.7306793,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F80B950A291D2">
+			<name>Sage Lab Stairs</name>
+			<description><![CDATA[<div><b>name</b>: Sage Lab Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Lab Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6816893,42.730775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8190E71877B2">
+			<name>Sage Lab to West Lot Stairs Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Sage Lab to West Lot Stairs Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Lab to West Lot Stairs Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6818617,42.7314673,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8200B749451D">
+			<name>Folsom Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Folsom Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Folsom Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6826123,42.7288011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F82503878E3D7">
+			<name>Folsom Top??
+</name>
+			<description><![CDATA[<div><b>name</b>: Folsom Top??
+</div><div><b>description</b>: Can't tell exactly 
+</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Folsom Top??
+</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">Can&apos;t tell exactly 
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6825238,42.7289518,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F825A08E23790">
+			<name>Sage Lab to West Lot Top</name>
+			<description><![CDATA[<div><b>name</b>: Sage Lab to West Lot Top</div><div><b>description</b>: (Make sure this is in the right place since it cannot be seen on map)</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Lab to West Lot Top</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">(Make sure this is in the right place since it cannot be seen on map)</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6820233,42.7313062,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F82AE4BF98D2A">
+			<name>VCC Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: VCC Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">VCC Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6826123,42.7288011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F82F9F5B2027E">
+			<name>VCC Top??
+</name>
+			<description><![CDATA[<div><b>name</b>: VCC Top??
+</div><div><b>description</b>: Can't tell exactly
+</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">VCC Top??
+</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">Can&apos;t tell exactly
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6822301,42.7289765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8369D849975C">
+			<name>Sage Side Top</name>
+			<description><![CDATA[<div><b>name</b>: Sage Side Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Side Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6820876,42.7311214,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F83FAF77DD2C9">
+			<name>EMPAC Top
+</name>
+			<description><![CDATA[<div><b>name</b>: EMPAC Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">EMPAC Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6831701,42.7290947,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F842E6AD48B8A">
+			<name>EMPAC Bottom??
+</name>
+			<description><![CDATA[<div><b>name</b>: EMPAC Bottom??
+</div><div><b>description</b>: Can't tell exactly
+</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">EMPAC Bottom??
+</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">Can&apos;t tell exactly
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68355099999999,42.7291632,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8482EE8842BB">
+			<name>Sage Side Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Sage Side Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Side Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68208009999999,42.7311595,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F84C9B32FBA43">
+			<name>Between Sage and Walker Top</name>
+			<description><![CDATA[<div><b>name</b>: Between Sage and Walker Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Between Sage and Walker Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68216289999999,42.7309421,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F851F965AC92D">
+			<name>Between Sage and Walker Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Between Sage and Walker Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Between Sage and Walker Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6821448,42.7309697,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F857F48042283">
+			<name>8th Street Bottom North
+</name>
+			<description><![CDATA[<div><b>name</b>: 8th Street Bottom North
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">8th Street Bottom North
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68410230000001,42.7306425,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F85A80DBBDE49">
+			<name>8th Street Bottom South
+</name>
+			<description><![CDATA[<div><b>name</b>: 8th Street Bottom South
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">8th Street Bottom South
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68413390000001,42.7305322,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F85CB478CC40B">
+			<name>8th Street Top (North and South)
+</name>
+			<description><![CDATA[<div><b>name</b>: 8th Street Top (North and South)
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">8th Street Top (North and South)
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6841177,42.7305784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F86412DF69E7D">
+			<name>West to 8th Top</name>
+			<description><![CDATA[<div><b>name</b>: West to 8th Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West to 8th Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68345360000001,42.7316672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F868339035766">
+			<name>8th Street to Pitts Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: 8th Street to Pitts Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">8th Street to Pitts Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68407910000001,42.7305737,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F86A442B74B60">
+			<name>West to 8th Top</name>
+			<description><![CDATA[<div><b>name</b>: West to 8th Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West to 8th Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6835119,42.7318313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F86C20CC1D946">
+			<name>8th Street to Pitts Top
+</name>
+			<description><![CDATA[<div><b>name</b>: 8th Street to Pitts Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">8th Street to Pitts Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68368719999999,42.7308867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F86E55C4A4C09">
+			<name>West to 8th Bottom</name>
+			<description><![CDATA[<div><b>name</b>: West to 8th Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West to 8th Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6837338,42.731784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F871DC770D417">
+			<name>8th Street Sidewalk Near West Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: 8th Street Sidewalk Near West Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">8th Street Sidewalk Near West Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6838036,42.7317865,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F87555552A216">
+			<name>Amos Eaton to Carnegie Top</name>
+			<description><![CDATA[<div><b>name</b>: Amos Eaton to Carnegie Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Amos Eaton to Carnegie Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68287050000001,42.7302419,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8777E6653048">
+			<name>8th Street Sidewalk Near West Top
+</name>
+			<description><![CDATA[<div><b>name</b>: 8th Street Sidewalk Near West Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">8th Street Sidewalk Near West Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68378079999999,42.7317835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8793189E8CC0">
+			<name>West Front Bottom (North and South)
+</name>
+			<description><![CDATA[<div><b>name</b>: West Front Bottom (North and South)
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West Front Bottom (North and South)
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6837319,42.7317835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F88BBECA22C33">
+			<name>Amos Eaton to Carnegie Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Amos Eaton to Carnegie Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Amos Eaton to Carnegie Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68304569999999,42.7302969,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F893C26BE9074">
+			<name>Amos Eaton Side Top</name>
+			<description><![CDATA[<div><b>name</b>: Amos Eaton Side Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Amos Eaton Side Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6828177,42.7301223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F896F200EBAE4">
+			<name>Amos Eaton Side Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Amos Eaton Side Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Amos Eaton Side Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6828579,42.7301287,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8A46EE4645B8">
+			<name>Sage Side Top</name>
+			<description><![CDATA[<div><b>name</b>: Sage Side Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Side Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68121480000001,42.7307155,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8A557F2AAE8B">
+			<name>West Front Top North
+</name>
+			<description><![CDATA[<div><b>name</b>: West Front Top North
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West Front Top North
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6835083,42.7318277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8A8A4CCB12A1">
+			<name>West Front Top South
+</name>
+			<description><![CDATA[<div><b>name</b>: West Front Top South
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West Front Top South
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6835585,42.731681,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8B11BC2DF6CF">
+			<name>West Accessible Entrance Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: West Accessible Entrance Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West Accessible Entrance Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6828843,42.7318508,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8B1D6E7B2202">
+			<name>Sage Side Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Sage Side Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Side Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6812013,42.7307657,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8B42A909D3B8">
+			<name>West Accessible Entrance Top
+</name>
+			<description><![CDATA[<div><b>name</b>: West Accessible Entrance Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West Accessible Entrance Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68274820000001,42.731835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8B74C66A42B5">
+			<name>West Lot Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: West Lot Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West Lot Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6826987,42.7317627,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8B92AA6488DC">
+			<name>West Lot Top
+</name>
+			<description><![CDATA[<div><b>name</b>: West Lot Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West Lot Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.682576,42.7317469,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8BD3D80706DD">
+			<name>Troy Stairs Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Troy Stairs Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Troy Stairs Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6805662,42.7308886,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8C03A47A8B9E">
+			<name>West to Sage North Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: West to Sage North Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West to Sage North Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6820773,42.7311611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8C1BD70DB12A">
+			<name>Troy Stairs Top</name>
+			<description><![CDATA[<div><b>name</b>: Troy Stairs Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Troy Stairs Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68055409999999,42.7309344,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8C2C79ED0D30">
+			<name>West to Sage North Top
+</name>
+			<description><![CDATA[<div><b>name</b>: West to Sage North Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West to Sage North Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68208199999999,42.7311139,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8C515B5C6327">
+			<name>West to Sage South Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: West to Sage South Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West to Sage South Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6822705,42.7310715,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8C8115B32B7E">
+			<name>West to Sage South Top
+</name>
+			<description><![CDATA[<div><b>name</b>: West to Sage South Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">West to Sage South Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6822074,42.7310833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8C865E452C5C">
+			<name>Sage to 86 Stairs Top</name>
+			<description><![CDATA[<div><b>name</b>: Sage to 86 Stairs Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage to 86 Stairs Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6808496,42.7306186,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8CBDB6BD6BC5">
+			<name>Sage to 86 Stairs Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Sage to 86 Stairs Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage to 86 Stairs Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68073889999999,42.7306038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8CF6BD1B0664">
+			<name>Sage Side Entrance Bottom?
+</name>
+			<description><![CDATA[<div><b>name</b>: Sage Side Entrance Bottom?
+</div><div><b>description</b>: Definitely a staircase here, not sure where the top/bottom are
+</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Side Entrance Bottom?
+</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">Definitely a staircase here, not sure where the top/bottom are
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6821461,42.7309678,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8D43E5A6243B">
+			<name>DCC Walkway Stairs Top</name>
+			<description><![CDATA[<div><b>name</b>: DCC Walkway Stairs Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">DCC Walkway Stairs Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67959879999999,42.7296362,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8D4F9BB0F18C">
+			<name>Sage Side Entrance Top? 
+</name>
+			<description><![CDATA[<div><b>name</b>: Sage Side Entrance Top? 
+</div><div><b>description</b>: Definitely a staircase here, not sure where the top/bottom are</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Side Entrance Top? 
+</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">Definitely a staircase here, not sure where the top/bottom are</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6821722,42.730919,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8DA9E1A8E8B6">
+			<name>DCC Walkway Stairs Bottom</name>
+			<description><![CDATA[<div><b>name</b>: DCC Walkway Stairs Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">DCC Walkway Stairs Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67971009999999,42.7296219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8DB8C111C2C5">
+			<name>Sage Accessible Entrance Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Sage Accessible Entrance Top
+</div><div><b>description</b>: There is a ramp here as well
+</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Accessible Entrance Top
+</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">There is a ramp here as well
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6810014,42.7309569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8E092E815FE7">
+			<name>Sage Accessible Entrance Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Sage Accessible Entrance Bottom
+</div><div><b>description</b>: There is a ramp here as well
+</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Accessible Entrance Bottom
+</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">There is a ramp here as well
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6810383,42.7309588,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8E4E0941E57C">
+			<name>Sage Side Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Sage Side Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Side Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6812123,42.7307148,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8E84E3F5B568">
+			<name>Sage Side Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Sage Side Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Side Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6812003,42.730767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8F6103071AA0">
+			<name>JROWL Stairs</name>
+			<description><![CDATA[<div><b>name</b>: JROWL Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">JROWL Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6801806,42.7288551,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F8FE71DCDB8E9">
+			<name>JROWL Stairs</name>
+			<description><![CDATA[<div><b>name</b>: JROWL Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">JROWL Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6805705,42.7283736,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F901D0F4D40EB">
+			<name>Amos Eaton Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Amos Eaton Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Amos Eaton Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68281880000001,42.730123,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F905572E39080">
+			<name>Amos Eaton Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Amos Eaton Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Amos Eaton Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6828577,42.730127,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9091051BF4ED">
+			<name>Academy Hall Stairs</name>
+			<description><![CDATA[<div><b>name</b>: Academy Hall Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Academy Hall Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6784234,42.7274016,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F90ED79EEDB8E">
+			<name>Academy Hall Stairs</name>
+			<description><![CDATA[<div><b>name</b>: Academy Hall Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Academy Hall Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67876130000001,42.727141,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F927B407F2764">
+			<name>Sage to Walker Top</name>
+			<description><![CDATA[<div><b>name</b>: Sage to Walker Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage to Walker Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6819102,42.7307547,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9290F142A067">
+			<name>Blitman to Approach Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Blitman to Approach Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Blitman to Approach Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6854091,42.7306672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F92B06FF989A7">
+			<name>Sage to Walker Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Sage to Walker Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage to Walker Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6822884,42.7307158,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F92BFD6F14BED">
+			<name>Blitman to Approach Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Blitman to Approach Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Blitman to Approach Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6849263,42.7306199,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9314DAC978AE">
+			<name>Approach Bottom (North and South)
+</name>
+			<description><![CDATA[<div><b>name</b>: Approach Bottom (North and South)
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Approach Bottom (North and South)
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68479139999999,42.7306606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9334544F914B">
+			<name>Approach Top North
+</name>
+			<description><![CDATA[<div><b>name</b>: Approach Top North
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Approach Top North
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.68429209999999,42.7306783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F935985795D59">
+			<name>Approach Top South
+</name>
+			<description><![CDATA[<div><b>name</b>: Approach Top South
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Approach Top South
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.684319,42.7305562,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9605BEB72C9E">
+			<name>To Walker and Sage Top</name>
+			<description><![CDATA[<div><b>name</b>: To Walker and Sage Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">To Walker and Sage Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6821207,42.730604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9672C29FAC01">
+			<name>Union to Basement Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Union to Basement Top
+</div><div><b>description</b>: Ramp on this side
+</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Union to Basement Top
+</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">Ramp on this side
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.677115,42.7297978,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9698C5D077EB">
+			<name>Union to Basement Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Union to Basement Bottom
+</div><div><b>description</b>: Ramp on this side
+</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Union to Basement Bottom
+</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">Ramp on this side
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67708279999999,42.729915,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F96ABA102E870">
+			<name>To Walker and Sage Bottom</name>
+			<description><![CDATA[<div><b>name</b>: To Walker and Sage Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">To Walker and Sage Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6821455,42.730685,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F971C99505A37">
+			<name>Ricketts Stairs</name>
+			<description><![CDATA[<div><b>name</b>: Ricketts Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Ricketts Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6797777,42.7308069,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9766F201FD1D">
+			<name>Ricketts Side Stairs</name>
+			<description><![CDATA[<div><b>name</b>: Ricketts Side Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Ricketts Side Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67941279999999,42.7308672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F97D90460EDC9">
+			<name>&apos;87 Gym Stairs</name>
+			<description><![CDATA[<div><b>name</b>: '87 Gym Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">&apos;87 Gym Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67904780000001,42.7307284,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F98D3ECD43760">
+			<name>Lowe Walkway Stairs</name>
+			<description><![CDATA[<div><b>name</b>: Lowe Walkway Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Lowe Walkway Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67924379999999,42.7297055,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9906F543E70D">
+			<name>Lowe Walkway Stairs</name>
+			<description><![CDATA[<div><b>name</b>: Lowe Walkway Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Lowe Walkway Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6793457,42.7297144,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F996696335785">
+			<name>Sage Dining Side Stairs Top</name>
+			<description><![CDATA[<div><b>name</b>: Sage Dining Side Stairs Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Dining Side Stairs Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6784054,42.7299541,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F99A65A129C97">
+			<name>Sage Dining Side Stairs Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Sage Dining Side Stairs Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Sage Dining Side Stairs Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67839600000001,42.7299994,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9A464AE1C5B9">
+			<name>To Quad Top</name>
+			<description><![CDATA[<div><b>name</b>: To Quad Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">To Quad Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6786006,42.7300245,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9B063FD6699C">
+			<name>To Quad Bottom</name>
+			<description><![CDATA[<div><b>name</b>: To Quad Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">To Quad Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6785905,42.7300629,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9B537A20584B">
+			<name>Lowe to Quad Top</name>
+			<description><![CDATA[<div><b>name</b>: Lowe to Quad Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Lowe to Quad Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6786268,42.7299172,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9B876F7615B1">
+			<name>Lowe Quad Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Lowe Quad Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Lowe Quad Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67861809999999,42.7299443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9BD26F868661">
+			<name>Lowe to Sage Dining Top</name>
+			<description><![CDATA[<div><b>name</b>: Lowe to Sage Dining Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Lowe to Sage Dining Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.678628,42.7297733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9C03B01AF086">
+			<name>Lowe to Sage Dining Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Lowe to Sage Dining Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Lowe to Sage Dining Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6785529,42.7297605,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9C824F682378">
+			<name>DCC to Sage Dining Bottom</name>
+			<description><![CDATA[<div><b>name</b>: DCC to Sage Dining Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">DCC to Sage Dining Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6785543,42.729632,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9CCA489B3FC4">
+			<name>DCC to Sage Dining Top</name>
+			<description><![CDATA[<div><b>name</b>: DCC to Sage Dining Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">DCC to Sage Dining Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6785349,42.7296675,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9CFF1AE2EB2B">
+			<name>DCC to Lowe Bottom</name>
+			<description><![CDATA[<div><b>name</b>: DCC to Lowe Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">DCC to Lowe Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.67855900000001,42.7296877,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9D3231DE1102">
+			<name>DCC to Lowe Top</name>
+			<description><![CDATA[<div><b>name</b>: DCC to Lowe Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">DCC to Lowe Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6785503,42.7297271,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9E12E1BD9EA9">
+			<name>To Sage Dining Stairs</name>
+			<description><![CDATA[<div><b>name</b>: To Sage Dining Stairs</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">To Sage Dining Stairs</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6781847,42.7295101,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9EDFACB26EF6">
+			<name>Lowe Back Stairs Bottom</name>
+			<description><![CDATA[<div><b>name</b>: Lowe Back Stairs Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Lowe Back Stairs Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6787728,42.7286915,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5F9F2FE8F67E04">
+			<name>Lowe Back Stairs Top</name>
+			<description><![CDATA[<div><b>name</b>: Lowe Back Stairs Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Lowe Back Stairs Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6787561,42.7287403,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5FA0E4AD37535A">
+			<name>Wiltsie and McGiffert Bottom
+</name>
+			<description><![CDATA[<div><b>name</b>: Wiltsie and McGiffert Bottom
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Wiltsie and McGiffert Bottom
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.66509379999999,42.7334298,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5FA11755E85D4B">
+			<name>Wiltsie and McGiffert Top
+</name>
+			<description><![CDATA[<div><b>name</b>: Wiltsie and McGiffert Top
+</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">Wiltsie and McGiffert Top
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6650623,42.7334081,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5FA12CF9AC07DF">
+			<name>&apos;87 Gym to Sage Ave Top</name>
+			<description><![CDATA[<div><b>name</b>: '87 Gym to Sage Ave Top</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">&apos;87 Gym to Sage Ave Top</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6785558,42.7305533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5FA195EFE6AB10">
+			<name>&apos;87 Gym to Sage Ave Bottom</name>
+			<description><![CDATA[<div><b>name</b>: '87 Gym to Sage Ave Bottom</div><div><b>description</b>: <i>empty</i></div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">&apos;87 Gym to Sage Ave Bottom</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6785357,42.7308893,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5FA1AFF6D04649">
+			<name>McGiffert Bottom*
+</name>
+			<description><![CDATA[<div><b>name</b>: McGiffert Bottom*
+</div><div><b>description</b>: 90% sure this is a staircase
+</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">McGiffert Bottom*
+</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">90% sure this is a staircase
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6652655,42.7333106,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="4b469cc3_4B5FA2037E816FEB">
+			<name>McGiffert Top*
+</name>
+			<description><![CDATA[<div><b>name</b>: McGiffert Top*
+</div><div><b>description</b>: 90% sure this is a staircase
+</div>]]></description>
+			<styleUrl>#__managed_style_023AA346362EC52FB2B5</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="str:bmFtZQ==">McGiffert Top*
+</SimpleData>
+					<SimpleData name="str:ZGVzY3JpcHRpb24=">90% sure this is a staircase
+</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.6651897,42.7332569,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
