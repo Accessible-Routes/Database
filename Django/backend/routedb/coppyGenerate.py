@@ -120,23 +120,23 @@ def routemaker(start, end):
                   if 'highway' in d.keys():
                         if 'steps' in d['highway']:
                               edgesToRemove.append((a, b))
-      for i in edgesToRemove:
-            G.remove_edge(i[0], i[1])
-            nodes, edges = ox.graph_to_gdfs(G, nodes=True, edges=True) 
-            entrance_df = nodes[nodes['highway'].str.contains("Entrance", na=False)]
-            start_node = int(entrance_df.loc[entrance_df['highway'] == start]['id'].values[0].item())
-            end_node = int(entrance_df.loc[entrance_df['highway'] == end]['id'].values[0].item())
+            for i in edgesToRemove:
+                  G.remove_edge(i[0], i[1])
+                  nodes, edges = ox.graph_to_gdfs(G, nodes=True, edges=True) 
+                  entrance_df = nodes[nodes['highway'].str.contains("Entrance", na=False)]
+                  start_node = int(entrance_df.loc[entrance_df['highway'] == start]['id'].values[0].item())
+                  end_node = int(entrance_df.loc[entrance_df['highway'] == end]['id'].values[0].item())
 
-            route = nx.shortest_path(G, start_node, end_node, 'travel_time')
-      
-            route_list = []
-            for i in route:
-                  node = {}
-                  node['latitude'] = G.nodes[i]['y']
-                  node['longitude'] = G.nodes[i]['x']
-                  route_list.append(node)
+                  route = nx.shortest_path(G, start_node, end_node, 'travel_time')
             
-            return route_list[1:-1]
+                  route_list = []
+                  for i in route:
+                        node = {}
+                        node['latitude'] = G.nodes[i]['y']
+                        node['longitude'] = G.nodes[i]['x']
+                        route_list.append(node)
+                  
+                  return route_list[1:-1]
       except Exception as e:
             print('exception', e)
             return []
