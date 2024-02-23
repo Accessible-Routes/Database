@@ -88,7 +88,8 @@ def plotGraph(new_nodes):
             #print(d['highway'])
             #print(type(d))
             if 'highway' in d.keys():
-                  if 'steps' in d['highway']:
+                  if 'steps' == d['highway']:
+                        print(d['highway'])
                         edgesToRemove.append((a, b))
       for i in edgesToRemove:
             G.remove_edge(i[0], i[1])
@@ -119,7 +120,6 @@ def routemaker(start, end):
             entrance_df = nodes[nodes['highway'].str.contains("Entrance", na=False)]
             start_node = int(entrance_df.loc[entrance_df['highway'] == start]['id'].values[0].item())
             end_node = int(entrance_df.loc[entrance_df['highway'] == end]['id'].values[0].item())
-
             route = nx.shortest_path(test, start_node, end_node, 'travel_time')
       
             route_list = []
@@ -133,6 +133,6 @@ def routemaker(start, end):
       except Exception as e:
             print('exception', e)
             return []
-      
-new_nodes = createNodeArray('/home/dennib2/Database/Django/backend/routedb/buildingEntrance.json')
-plotGraph(new_nodes)
+print(routemaker("Entrance_Low", "Entrance_West Hall"))
+#new_nodes = createNodeArray('/home/dennib2/Database/Django/backend/routedb/buildingEntrance.json')
+#plotGraph(new_nodes)
