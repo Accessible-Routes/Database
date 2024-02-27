@@ -85,31 +85,55 @@ def plotGraph(new_nodes):
       G = RPI
       edgesToRemove = []
       for a, b,c,d in G.edges(keys = True, data = True):
-            #print(d['highway'])
-            #print(type(d))
+            print("=====")
+            print(a)
+            print(b)
+            print(c)
+            print(d)
+            print("=====")
             if 'highway' in d.keys():
                   if 'steps' == d['highway']:
-                        print(d['highway'])
+                        #print(d['highway'])
                         edgesToRemove.append((a, b))
+            if 'length' not in d.keys():
+                  d['length'] = 0
       for i in edgesToRemove:
             G.remove_edge(i[0], i[1])
-      ox.plot_graph(G)
-      # for a, b, c, d in G.edges(keys = True, data = True):
-      #       print(a)
-      #       print(b)
-      #       print(c)
-      #       print(d)
-
-            #G.re
+      
+      #ox.plot_graph(G)
       with open("graph.p", 'wb') as f:
             pickle.dump(G, f)
       return RPI
 
 def readGraphFromFile():
-      with open("routedb/graph.p", 'rb') as f: 
+      with open("graph.p", 'rb') as f: 
             G_loaded = pickle.load(f)
             return G_loaded
+def bensRoute(start, end):
+      try:
+            place = 'Rensselaer Polytechnic Institute'
+            #new_nodes = createNodeArray('routedb/buildingEntrance.json')
+            test = readGraphFromFile()
 
+            nodes, edges = ox.graph_to_gdfs(test, nodes=True, edges=True) 
+            entrance_df = nodes[nodes['highway'].str.contains("Entrance", na=False)]
+            start_node = int(entrance_df.loc[entrance_df['highway'] == start]['id'].values[0].item())
+            end_node = int(entrance_df.loc[entrance_df['highway'] == end]['id'].values[0].item())
+            route = nx.shortest_path(test, start_node, end_node, weight = 'length')
+      
+            route_list = []
+            for i in route:
+                  route_list.append(i)
+            for i in range(len(route_list)-1):
+                  a = test.get_edge_data(route_list[i], route_list[i+1])[0]
+                  print(route[i])
+                  #print(route_list[i], route_list[i+1], a)
+            fig, ax = ox.plot_graph_route(test, route, route_color='r', route_linewidth=6, node_size=1)
+            return route_list[1:-1]
+      except Exception as e:
+            print('exception', e)
+            return []
+      
 def routemaker(start, end):
       try:
             place = 'Rensselaer Polytechnic Institute'
@@ -133,6 +157,8 @@ def routemaker(start, end):
       except Exception as e:
             print('exception', e)
             return []
-print(routemaker("Entrance_Low", "Entrance_West Hall"))
-#new_nodes = createNodeArray('/home/dennib2/Database/Django/backend/routedb/buildingEntrance.json')
-#plotGraph(new_nodes)
+
+
+# new_nodes = createNodeArray('/home/dennib2/Database/Django/backend/routedb/buildingEntrance.json')
+# plotGraph(new_nodes)
+# testRoute = bensRoute("Entrance_Low", "Entrance_West Hall")
