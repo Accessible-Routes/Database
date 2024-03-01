@@ -36,7 +36,7 @@ def layerGraph():
     G2 = ox.graph_from_place("Rensselaer Polytechnic Institute", custom_filter='["highway"~"steps"]')
     G = nx.compose(G1, G2)
     ec = []
-    for _,_,_,d in G.edges(keys = True, data = True):
+    for _,_,_,d in G.edges(keys = True, data = True):   
         #print(d['highway'])
         if 'steps' in d['highway']:
             ec.append('y')
