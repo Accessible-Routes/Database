@@ -105,7 +105,7 @@ def plotGraph(new_nodes):
 
       
       #ox.plot_graph(G)
-      with open("graph.p", 'wb') as f:
+      with open("Accessible_Graph.p", 'wb') as f:
             pickle.dump(G, f)
       route = ox.shortest_path(G, 6, 9)
       print(route)
@@ -113,7 +113,7 @@ def plotGraph(new_nodes):
       return RPI
 
 def readGraphFromFile():
-      with open("graph.p", 'rb') as f: 
+      with open("Databse/backend/routedb/Accessible_Graph.p", 'rb') as f: 
             G_loaded = pickle.load(f)
             return G_loaded
 def bensRoute(start, end):
@@ -133,7 +133,8 @@ def bensRoute(start, end):
                   a = test.get_edge_data(route_list[i], route_list[i+1])[0]
                   print(route[i])
                   #print(route_list[i], route_list[i+1], a)
-            fig, ax = ox.plot_graph_route(test, route, route_color='r', route_linewidth=6, node_size=1)
+            #fig, ax = ox.plot_graph_route(test, route, route_color='r', route_linewidth=6, node_size=1)
+            #ox.plot_graph(test)
             return route_list
       except Exception as e:
             print('exception', e)
@@ -164,5 +165,5 @@ def routemaker(start, end):
 
 # new_nodes = createNodeArray('/home/dennib2/Database/Django/backend/routedb/buildingEntrance.json')
 # plotGraph(new_nodes)
-# testRoute = bensRoute("Entrance_Low", "Entrance_West Hall")
+#testRoute = bensRoute("Entrance_West Hall", "Entrance_Academy Hall")
 # print(testRoute)
