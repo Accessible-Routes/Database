@@ -4,27 +4,32 @@ import json
 import osmnx as ox
 import networkx as nx
 from pykml import parser
-
+import coppyGenerate
 def readGraphFromFile():
       with open("/home/dennib2/Database/Django/backend/routedb/graph.p", 'rb') as f: 
             G_loaded = pickle.load(f)
             return G_loaded
 
 def getElevation(tmp_x, tmp_y):
-    #url = f'https://api.open-elevation.com/api/v1/lookup?locations={start["y"]},{start["x"]}'
-    url = f'https://api.open-elevation.com/api/v1/lookup?locations={tmp_y},{tmpx}'
+    url = f'https://api.open-elevation.com/api/v1/lookup?locations={tmp_y},{tmp_x}'
     r = requests.get(url)
     data = json.loads(r.content)
     print(data)
     return data['results'][0]['elevation']
 
 def elevations(RPI):
-    for edge in RPI.edges():
-        startID, endID = edge
+    print(len(RPI.edges))
+    for startID, endID, weight, attrDict in RPI.edges(keys = True, data = True):
         startNode = RPI.nodes[startID]
         endNode = RPI.nodes[endID]
         startElevation = getElevation(startNode['x'], startNode['y'])
         endElevation = getElevation(endNode['x'], endNode['y'])
+        deltaElevation = abs(endElevation - startElevation)
+        attrDict['elevation'] = deltaElevation
+        print(RPI.edges[startID, endID, 0]['elevation'])
+    G = RPI
+    with open("/home/dennib2/Database/Django/backend/routedb/Accessible_Graph.p", 'wb') as f:
+            pickle.dump(G, f)
 
 def layerGraph():
     north = 42.73201
@@ -55,21 +60,21 @@ def pairNodes(inputNode, stairNodes):
         tmpName = i[0].split(" ")
         if inputNode[0].split(" ")[:-1] == tmpName[:-1] and len(tmpName) == len(inputNode[0].split(" ")) and i[0] != inputNode[0]:
             return i
-with open("/home/dennib2/Database/Django/backend/routedb/stairs.kml") as f:
-    doc = parser.parse(f).getroot()
-    stairNodes = []
-    for point in doc.Document.Folder.Placemark:
-        coor = point.Point.coordinates.text.split(',')
-        coor_name = str(point.name).strip()
-        #print(coor_name, coor[0], coor[1])
-        stairNodes.append((coor_name, (coor[0], coor[1])))
-    for node in stairNodes:
-        endNode = pairNodes(node, stairNodes)
-        edgePairs.append((node[0], node, endNode))
-        #print(node, endNode)
+# with open("/home/dennib2/Database/Django/backend/routedb/stairs.kml") as f:
+#     doc = parser.parse(f).getroot()
+#     stairNodes = []
+#     for point in doc.Document.Folder.Placemark:
+#         coor = point.Point.coordinates.text.split(',')
+#         coor_name = str(point.name).strip()
+#         #print(coor_name, coor[0], coor[1])
+#         stairNodes.append((coor_name, (coor[0], coor[1])))
+#     for node in stairNodes:
+#         endNode = pairNodes(node, stairNodes)
+#         edgePairs.append((node[0], node, endNode))
+#         #print(node, endNode)
 
-layerGraph()
-
+#layerGraph()
+elevations(coppyGenerate.readGraphFromFile())
 
 #RPI = readGraphFromFile()
 
