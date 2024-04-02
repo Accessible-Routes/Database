@@ -4,6 +4,7 @@ import json
 import osmnx as ox
 import networkx as nx
 from pykml import parser
+from math import sin, cos, sqrt, atan2, radians
 import coppyGenerate
 def readGraphFromFile():
       with open("/home/dennib2/Database/Django/backend/routedb/graph.p", 'rb') as f: 
@@ -14,11 +15,25 @@ def getElevation(tmp_x, tmp_y):
     url = f'https://api.open-elevation.com/api/v1/lookup?locations={tmp_y},{tmp_x}'
     r = requests.get(url)
     data = json.loads(r.content)
-    print(data)
     return data['results'][0]['elevation']
 
+def getDistFromLatLon(point1, point2):
+    R = 6373.0
+    lat1 = radians(float(point1[0]))
+    lon1 = radians(float(point1[1]))
+    lat2 = radians(float(point2[0]))
+    lon2 = radians(float(point2[1]))
+
+    dlon = lon2 - lon1
+    dlat = lat2 - lat1
+
+    a = sin(dlat / 2)**2 + cos(lat1) * cos(lat2) * sin(dlon / 2)**2
+    c = 2 * atan2(sqrt(a), sqrt(1 - a))
+
+    distance = R * c
+    return distance
+
 def elevations(RPI):
-    print(len(RPI.edges))
     for startID, endID, weight, attrDict in RPI.edges(keys = True, data = True):
         startNode = RPI.nodes[startID]
         endNode = RPI.nodes[endID]
@@ -26,7 +41,6 @@ def elevations(RPI):
         endElevation = getElevation(endNode['x'], endNode['y'])
         deltaElevation = abs(endElevation - startElevation)
         attrDict['elevation'] = deltaElevation
-        print(RPI.edges[startID, endID, 0]['elevation'])
     G = RPI
     with open("/home/dennib2/Database/Django/backend/routedb/Accessible_Graph.p", 'wb') as f:
             pickle.dump(G, f)
@@ -60,33 +74,42 @@ def pairNodes(inputNode, stairNodes):
         tmpName = i[0].split(" ")
         if inputNode[0].split(" ")[:-1] == tmpName[:-1] and len(tmpName) == len(inputNode[0].split(" ")) and i[0] != inputNode[0]:
             return i
-# with open("/home/dennib2/Database/Django/backend/routedb/stairs.kml") as f:
-#     doc = parser.parse(f).getroot()
-#     stairNodes = []
-#     for point in doc.Document.Folder.Placemark:
-#         coor = point.Point.coordinates.text.split(',')
-#         coor_name = str(point.name).strip()
-#         #print(coor_name, coor[0], coor[1])
-#         stairNodes.append((coor_name, (coor[0], coor[1])))
-#     for node in stairNodes:
-#         endNode = pairNodes(node, stairNodes)
-#         edgePairs.append((node[0], node, endNode))
-#         #print(node, endNode)
+def bench1():
+    with open("/home/dennib2/Database/Django/backend/routedb/stairs.kml") as f:
+        doc = parser.parse(f).getroot()
+        stairNodes = []
+        for point in doc.Document.Folder.Placemark:
+            coor = point.Point.coordinates.text.split(',')
+            coor_name = str(point.name).strip()
+            #print(coor_name, coor[0], coor[1])
+            stairNodes.append((coor_name, (coor[0], coor[1])))
+        for node in stairNodes:
+            endNode = pairNodes(node, stairNodes)
+            edgePairs.append((node[0], node, endNode))
+            #print(node, endNode)
 
-#layerGraph()
-elevations(coppyGenerate.readGraphFromFile())
 
-#RPI = readGraphFromFile()
+def addWeights():
+    G = coppyGenerate.readGraphFromFile()
+    for startId, endId, weight, attrDict in G.edges(keys=True, data=True):
+        startNode = G.nodes[startId]
+        endNode = G.nodes[endId]
+        point1 = (startNode['y'], startNode['x'])
+        point2 = (endNode['y'], endNode['x'])
+        distance = getDistFromLatLon(point1, point2) * 1000 #in meters as opposed to km
+        #tmpWeight = sqrt(distance**2 + G.edges[startId, endId, 0]['elevation']**2)
+        print(point1, point2)
+        print(distance)
+        if distance == 0:
+             heuristic = 0
+        else:
+            heuristic = G.edges[startId, endId, 0]['elevation'] / distance
+        G[startId][endId][0]['length'] = distance
+        attrDict['heuristic'] = heuristic
+    with open("/home/dennib2/Database/Django/backend/routedb/Accessible_Graph.p", 'wb') as f:
+            pickle.dump(G, f)
 
-# RPI = ox.add_edge_speeds(RPI,5)
-# RPI = ox.add_edge_travel_times(RPI)
-# for edge in RPI.edges():
-#     startId, endId = edge
-#     startNode = RPI.nodes.get(startId, {})
-#     endNode = RPI.nodes.get(endId, {})
-#     print(startNode)
-#     #if 'highway' in startNode:
-         
-        
-#layerGraph()
-    #edge['tags']['elevation'] = abs(endElevation - startElevation)
+addWeights()
+G = coppyGenerate.readGraphFromFile()
+for i in G.edges(data = True):
+    print(i)
