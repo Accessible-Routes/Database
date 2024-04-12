@@ -25,6 +25,9 @@
             <a href="#installation"> Installation</a>
         </li>
         <li>
+            <a href="#deployment"> License</a>
+        </li>
+        <li>
             <a href="#license"> License</a>
         </li>
     </ol>
@@ -121,7 +124,77 @@ end building UUID.
 Let's suppose that you have made code changes, tested them, and are ready to deploy to the production server. You are almost finished with completing this feature!
 The final step is to deploy these changes.
 
+**NOTE**: Deployment is quite a difficult task, so _don't feel frustrated_ if it's very confusing. This is usually done by someone who has all the credentials/passwords. It is possible to automate some of the below steps, and future semesters of Accessible Routes members could work on automating this! Ask for help when needed!
+
 ##### Part 1: Connecting to the AWS Console
+
+1. Ask the project lead for the SSH credentials and IP address. The project lead should have the SSH credentials and the IP address. The file is usually a .pem file.
+
+2. Login to AWS, and navigate to the EC2 instance. Again, you will need some credentials most likely in the form of an IAM user (ask project lead!). Once you are on the EC2 service, navigate to Security -> Security Groups -> click group -> Inbound Rules -> Edit Inbound rules -> find the row with "SSH" -> change Custom to "My IP".
+
+3. Once you obtain the credentials and changed the security permissions, ssh into the EC2 server with the below command.
+
+```
+ssh ubuntu@IP_ADDRESS -i YOUR_PEM_FILE.pem
+```
+
+4. From the home directory, navigate to the Frontend Folder or Backend Folder depending on which one you want to redeploy. The commands should look something like the below.
+
+```
+cd Database\Django\backend
+```
+
+or
+
+```
+cd WebsiteHere\Webb-App\Website\webb
+```
+
+run
+
+```
+git pull
+```
+
+5. After step 4, the steps diverges depending on whether you want to deploy the frontend or the backend. Continue to the appropriate step.
+
+##### Part 2a: Deploy the backend
+
+1. In the next few sentences, the deployment of the backend will be explained. How the backend is currently deploy is **NOT** optimal. A future member of Accessible Routes should consider working on this in a semester.
+2. Currently, we use a tmux terminal to expose a port of the server that runs the backend API. Attach to the tmux terminal with the below command.
+
+```
+tmux attach -t 0
+```
+
+Press ctrl+C or cmd+B and that stops the backend API. Run the below command OR use up arrows to rerun the command.
+
+```
+nohup python3 manage.py runserver_plus --cert-file cert.pem --key-file key.pem 0.0.0.0:8000
+```
+
+Press ctrl+B or cmd+B to disconnect from the terminal while keeping it running.
+
+##### Part 2b: Deploy the frontend
+
+1. In the next few sentences, the deployment of the frontend will be explained. The frontend is setup in a production-ready way and the setup should not be changed. However, the deployment could be automated as a future feature.
+2. Run the below command to build the frontend into its static files.
+
+```
+npm run build
+```
+
+NOTE: The server has limited resources and running the build while the frontend and backend are running make that the above command several minutes to run. If this is the case, ask an experienced member how to stop the frontend and backend temporarily.
+
+3. Once command from step 2 finishes, you should have a folder named "build". You want to replace the current "build" folder in /var/www/html/ with the newly generated build folder. Run the below command.
+
+```
+sudo rm -r  /var/www/html/build
+sudo mv build /var/www/html/build
+sudo service apache2 restart
+```
+
+From those commands you have restarted the frontend with the newly built static files.
 
 ## License
 
