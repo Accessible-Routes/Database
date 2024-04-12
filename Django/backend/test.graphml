@@ -3387,9 +3387,9 @@
     <edge source="41691957" target="41822752" id="0">
       <data key="d7">[35360219, 267844564]</data>
       <data key="d8">False</data>
-      <data key="d9">['4', '2']</data>
+      <data key="d9">['2', '4']</data>
       <data key="d10">NY 2</data>
-      <data key="d11">['Ferry Street', 'Congress Street']</data>
+      <data key="d11">['Congress Street', 'Ferry Street']</data>
       <data key="d12">primary</data>
       <data key="d13">30 mph</data>
       <data key="d14">False</data>
@@ -3489,9 +3489,9 @@
     <edge source="41822752" target="41691957" id="0">
       <data key="d7">[35360219, 267844564]</data>
       <data key="d8">False</data>
-      <data key="d9">['4', '2']</data>
+      <data key="d9">['2', '4']</data>
       <data key="d10">NY 2</data>
-      <data key="d11">['Ferry Street', 'Congress Street']</data>
+      <data key="d11">['Congress Street', 'Ferry Street']</data>
       <data key="d12">primary</data>
       <data key="d13">30 mph</data>
       <data key="d14">True</data>
@@ -3701,8 +3701,8 @@
       <data key="d12">residential</data>
       <data key="d13">30 mph</data>
       <data key="d14">False</data>
-      <data key="d15">197.795</data>
-      <data key="d16">LINESTRING (-73.6803469 42.726406, -73.680851 42.726465, -73.680912 42.726481, -73.680963 42.726515, -73.681005 42.726578, -73.681066 42.72669, -73.681102 42.726725, -73.6812235 42.7268271, -73.6815312 42.7269595, -73.682013 42.727172, -73.68209 42.727191, -73.682164 42.727191, -73.682198 42.727186, -73.682231 42.727181, -73.682277 42.727167, -73.6823381 42.7271275)</data>
+      <data key="d15">197.79399999999998</data>
+      <data key="d16">LINESTRING (-73.6803469 42.726406, -73.680851 42.726465, -73.680912 42.726481, -73.680963 42.726515, -73.681005 42.726578, -73.681066 42.72669, -73.681102 42.726725, -73.6812235 42.7268271, -73.6815312 42.7269595, -73.6819637 42.7271502, -73.682013 42.727172, -73.68209 42.727191, -73.682164 42.727191, -73.682198 42.727186, -73.682231 42.727181, -73.682277 42.727167, -73.6823381 42.7271275)</data>
       <data key="d17">48.3</data>
       <data key="d18">14.7</data>
     </edge>
@@ -5114,8 +5114,8 @@
       <data key="d12">residential</data>
       <data key="d13">30 mph</data>
       <data key="d14">True</data>
-      <data key="d15">197.79500000000002</data>
-      <data key="d16">LINESTRING (-73.6823381 42.7271275, -73.682277 42.727167, -73.682231 42.727181, -73.682198 42.727186, -73.682164 42.727191, -73.68209 42.727191, -73.682013 42.727172, -73.6815312 42.7269595, -73.6812235 42.7268271, -73.681102 42.726725, -73.681066 42.72669, -73.681005 42.726578, -73.680963 42.726515, -73.680912 42.726481, -73.680851 42.726465, -73.6803469 42.726406)</data>
+      <data key="d15">197.794</data>
+      <data key="d16">LINESTRING (-73.6823381 42.7271275, -73.682277 42.727167, -73.682231 42.727181, -73.682198 42.727186, -73.682164 42.727191, -73.68209 42.727191, -73.682013 42.727172, -73.6819637 42.7271502, -73.6815312 42.7269595, -73.6812235 42.7268271, -73.681102 42.726725, -73.681066 42.72669, -73.681005 42.726578, -73.680963 42.726515, -73.680912 42.726481, -73.680851 42.726465, -73.6803469 42.726406)</data>
       <data key="d17">48.3</data>
       <data key="d18">14.7</data>
     </edge>
@@ -6898,7 +6898,7 @@
     <edge source="41851971" target="1053141694" id="0">
       <data key="d7">[5625922, 5640702, 5630838]</data>
       <data key="d8">False</data>
-      <data key="d11">['7th Avenue', 'Institute Avenue', 'John Langlotz Lane']</data>
+      <data key="d11">['Institute Avenue', 'John Langlotz Lane', '7th Avenue']</data>
       <data key="d12">service</data>
       <data key="d14">[False, True]</data>
       <data key="d15">296.851</data>
@@ -6930,7 +6930,7 @@
     <edge source="1053141694" target="41851971" id="0">
       <data key="d7">[5625922, 5630838, 5640702]</data>
       <data key="d8">False</data>
-      <data key="d11">['7th Avenue', 'Institute Avenue', 'John Langlotz Lane']</data>
+      <data key="d11">['Institute Avenue', 'John Langlotz Lane', '7th Avenue']</data>
       <data key="d12">service</data>
       <data key="d14">[False, True]</data>
       <data key="d15">296.85100000000006</data>
@@ -7641,6 +7641,9 @@
       <data key="d17">24.1</data>
       <data key="d18">6.6</data>
     </edge>
+    <edge source="2915338660" target="26" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="8867005941" target="846508187" id="0">
       <data key="d7">104737217</data>
       <data key="d8">False</data>
@@ -7671,6 +7674,9 @@
       <data key="d16">LINESTRING (-73.6809167 42.7309402, -73.6811604 42.730969, -73.6812019 42.7307707, -73.6812122 42.7307139, -73.6812196 42.7306724)</data>
       <data key="d17">35.2</data>
       <data key="d18">5.5</data>
+    </edge>
+    <edge source="8867005941" target="13" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="1208043226" target="1208042357" id="0">
       <data key="d7">288217493</data>
@@ -9271,6 +9277,9 @@
       <data key="d17">24.1</data>
       <data key="d18">6.3</data>
     </edge>
+    <edge source="953287163" target="30" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="1208043840" target="953287163" id="0">
       <data key="d7">439721108</data>
       <data key="d8">False</data>
@@ -9300,6 +9309,9 @@
       <data key="d16">LINESTRING (-73.682866 42.7302321, -73.6828766 42.7302082, -73.682894 42.73013, -73.6828909 42.7301115, -73.6827772 42.7300939, -73.6827394 42.7300881)</data>
       <data key="d17">24.1</data>
       <data key="d18">3.9</data>
+    </edge>
+    <edge source="1208043840" target="24" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="2917705938" target="1208041957" id="0">
       <data key="d7">288217481</data>
@@ -9431,6 +9443,9 @@
       <data key="d17">24.1</data>
       <data key="d18">3.5</data>
     </edge>
+    <edge source="2521799101" target="14" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="1208042917" target="2867828939" id="0">
       <data key="d7">104737235</data>
       <data key="d8">False</data>
@@ -9500,6 +9515,9 @@
       <data key="d16">LINESTRING (-73.6788948 42.7305337, -73.6788731 42.7305318, -73.6786617 42.7305115, -73.6786178 42.7305085, -73.6785735 42.7305046, -73.6785417 42.7305001)</data>
       <data key="d17">35.2</data>
       <data key="d18">3.0</data>
+    </edge>
+    <edge source="1208043294" target="8" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="1208041788" target="1208041846" id="0">
       <data key="d7">104737207</data>
@@ -10892,6 +10910,9 @@
       <data key="d17">24.1</data>
       <data key="d18">1.5</data>
     </edge>
+    <edge source="8552328207" target="31" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="1208042408" target="1208044164" id="0">
       <data key="d7">5638361</data>
       <data key="d8">False</data>
@@ -11106,6 +11127,9 @@
       <data key="d16">LINESTRING (-73.6811966 42.7284072, -73.6817207 42.7285131, -73.6817968 42.7285294)</data>
       <data key="d17">24.1</data>
       <data key="d18">7.6</data>
+    </edge>
+    <edge source="1208041981" target="27" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="1208043453" target="5967870974" id="0">
       <data key="d7">283275179</data>
@@ -11783,6 +11807,9 @@
       <data key="d17">24.1</data>
       <data key="d18">1.8</data>
     </edge>
+    <edge source="6384901314" target="19" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="1208044144" target="1208042120" id="0">
       <data key="d7">104737309</data>
       <data key="d8">False</data>
@@ -11904,6 +11931,9 @@
       <data key="d16">LINESTRING (-73.6833129 42.7304826, -73.6833395 42.7304897, -73.6833284 42.7305102, -73.6833101 42.730544, -73.6832812 42.7305975, -73.6832599 42.7306177, -73.6830312 42.7307506)</data>
       <data key="d17">35.2</data>
       <data key="d18">4.3</data>
+    </edge>
+    <edge source="1208042121" target="29" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="1208043253" target="1208042123" id="0">
       <data key="d7">674539882</data>
@@ -12284,6 +12314,9 @@
       <data key="d17">24.1</data>
       <data key="d18">8.4</data>
     </edge>
+    <edge source="1208043132" target="23" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="1208042175" target="1208043978" id="0">
       <data key="d7">104737253</data>
       <data key="d8">False</data>
@@ -12635,6 +12668,9 @@
       <data key="d18">2.9</data>
       <data key="d20">yes</data>
     </edge>
+    <edge source="1208042387" target="2" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="2867884596" target="1208042280" id="0">
       <data key="d7">282843332</data>
       <data key="d8">False</data>
@@ -12777,6 +12813,9 @@
       <data key="d16">LINESTRING (-73.6787215 42.7277726, -73.6793745 42.7278753, -73.6794055 42.7278773, -73.679432 42.7278786, -73.6794647 42.7278786, -73.679486 42.7278773, -73.6795108 42.7278799, -73.6795311 42.7278831, -73.679547 42.7278896, -73.6795612 42.727902, -73.6795736 42.7279241, -73.6795851 42.7279468, -73.679601 42.7279644, -73.679624 42.7279806, -73.6796514 42.7279949, -73.6796851 42.7280047, -73.6797196 42.7280086, -73.6797541 42.7280105)</data>
       <data key="d17">24.1</data>
       <data key="d18">13.8</data>
+    </edge>
+    <edge source="1208042843" target="5" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="1208042307" target="1208042538" id="0">
       <data key="d7">104737205</data>
@@ -13225,6 +13264,9 @@
       <data key="d18">2.4</data>
       <data key="d20">yes</data>
     </edge>
+    <edge source="1208043492" target="1" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="1208042401" target="2915338628" id="0">
       <data key="d7">104737290</data>
       <data key="d8">False</data>
@@ -13390,6 +13432,9 @@
       <data key="d18">14.3</data>
       <data key="d22">yes</data>
     </edge>
+    <edge source="1208042883" target="16" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="2870374449" target="1208042422" id="0">
       <data key="d7">104737324</data>
       <data key="d8">False</data>
@@ -13485,6 +13530,9 @@
       <data key="d17">24.1</data>
       <data key="d18">13.1</data>
       <data key="d20">yes</data>
+    </edge>
+    <edge source="1208042425" target="28" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="2871629353" target="1208043249" id="0">
       <data key="d7">283275174</data>
@@ -14195,6 +14243,9 @@
       <data key="d17">24.1</data>
       <data key="d18">0.7</data>
     </edge>
+    <edge source="1208042566" target="12" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="10069778978" target="1208044224" id="0">
       <data key="d7">104737323</data>
       <data key="d8">False</data>
@@ -14285,6 +14336,12 @@
       <data key="d16">LINESTRING (-73.680233 42.7311731, -73.6793658 42.7310345, -73.6793616 42.7309722, -73.6794164 42.7307413)</data>
       <data key="d17">24.1</data>
       <data key="d18">15.8</data>
+    </edge>
+    <edge source="4203304794" target="9" id="0">
+      <data key="d17">nan</data>
+    </edge>
+    <edge source="4203304794" target="11" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="8552328214" target="8552328215" id="0">
       <data key="d7">104737206</data>
@@ -14873,6 +14930,9 @@
       <data key="d16">LINESTRING (-73.6822596 42.7292872, -73.6822367 42.7293978, -73.6821307 42.7293899)</data>
       <data key="d17">24.1</data>
       <data key="d18">3.2</data>
+    </edge>
+    <edge source="2926254412" target="20" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="2871629340" target="1208042821" id="0">
       <data key="d7">283275181</data>
@@ -16591,6 +16651,9 @@
       <data key="d17">24.1</data>
       <data key="d18">7.2</data>
     </edge>
+    <edge source="2926254411" target="21" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="1208043876" target="1208043369" id="0">
       <data key="d7">104737192</data>
       <data key="d8">False</data>
@@ -16784,6 +16847,9 @@
       <data key="d17">24.1</data>
       <data key="d18">4.5</data>
     </edge>
+    <edge source="1208043734" target="18" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="10000644543" target="1208043928" id="0">
       <data key="d7">104737184</data>
       <data key="d8">False</data>
@@ -16897,6 +16963,9 @@
       <data key="d17">24.1</data>
       <data key="d18">4.6</data>
       <data key="d22">yes</data>
+    </edge>
+    <edge source="8866962056" target="32" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="2915338632" target="1208043526" id="0">
       <data key="d7">287981179</data>
@@ -17098,6 +17167,9 @@
       <data key="d17">35.2</data>
       <data key="d18">7.5</data>
       <data key="d20">yes</data>
+    </edge>
+    <edge source="1208044029" target="4" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="4374185210" target="4374185209" id="0">
       <data key="d7">420398490</data>
@@ -18739,6 +18811,9 @@
       <data key="d17">35.2</data>
       <data key="d18">3.2</data>
     </edge>
+    <edge source="8872845013" target="22" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="2872820213" target="2032237569" id="0">
       <data key="d7">283420313</data>
       <data key="d8">False</data>
@@ -19107,6 +19182,9 @@
       <data key="d18">1.0</data>
       <data key="d20">yes</data>
     </edge>
+    <edge source="2867828977" target="10" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="3117629820" target="2868461066" id="0">
       <data key="d7">[306773650, 306773651]</data>
       <data key="d8">False</data>
@@ -19204,6 +19282,9 @@
       <data key="d17">24.1</data>
       <data key="d18">1.2</data>
       <data key="d20">yes</data>
+    </edge>
+    <edge source="2870374452" target="7" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="2870374475" target="2870374474" id="0">
       <data key="d7">192678148</data>
@@ -19404,6 +19485,9 @@
       <data key="d18">1.4</data>
       <data key="d20">yes</data>
     </edge>
+    <edge source="2882579030" target="17" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="2872820239" target="2872820228" id="0">
       <data key="d7">283420328</data>
       <data key="d8">False</data>
@@ -19493,6 +19577,9 @@
       <data key="d16">LINESTRING (-73.6796002 42.7294201, -73.6797401 42.7293332, -73.6797965 42.7292857)</data>
       <data key="d17">24.1</data>
       <data key="d18">3.3</data>
+    </edge>
+    <edge source="2872820246" target="15" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="4374185203" target="2915338652" id="0">
       <data key="d7">287981181</data>
@@ -19686,6 +19773,9 @@
       <data key="d16">LINESTRING (-73.6818871 42.7301234, -73.6818642 42.7302059)</data>
       <data key="d17">24.1</data>
       <data key="d18">1.4</data>
+    </edge>
+    <edge source="8867005946" target="25" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="2915338652" target="4374185203" id="0">
       <data key="d7">287981181</data>
@@ -20454,6 +20544,9 @@
       <data key="d17">24.1</data>
       <data key="d18">2.2</data>
     </edge>
+    <edge source="4203300648" target="6" id="0">
+      <data key="d17">nan</data>
+    </edge>
     <edge source="4203300649" target="4374185194" id="0">
       <data key="d7">[420398477, 1125311878, 1125311879]</data>
       <data key="d8">False</data>
@@ -20464,6 +20557,9 @@
       <data key="d17">35.2</data>
       <data key="d18">1.8</data>
       <data key="d20">yes</data>
+    </edge>
+    <edge source="4203300649" target="3" id="0">
+      <data key="d17">nan</data>
     </edge>
     <edge source="4203300651" target="4374185194" id="0">
       <data key="d7">420398477</data>
