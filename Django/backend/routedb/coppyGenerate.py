@@ -176,7 +176,6 @@ Parameters: start - the starting entrance, end - the ending entrance
 """
 def routemaker(start, end):
       try:
-            place = 'Rensselaer Polytechnic Institute'
             test = readGraphFromFile()
             nodes, edges = ox.graph_to_gdfs(test, nodes=True, edges=True) 
             entrance_df = nodes[nodes['highway'].str.contains("Entrance", na=False)]

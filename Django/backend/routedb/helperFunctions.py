@@ -51,9 +51,9 @@ def layerGraph():
     east = -73.67119
     west = -73.68663
     custom_filters = ('["footway"~"sidewalk"]["foot"~"designated|yes"]',)
-    G1 = ox.graph_from_place("Rensselaer Polytechnic Institute")
-    G2 = ox.graph_from_place("Rensselaer Polytechnic Institute", custom_filter='["highway"~"steps"]')
-    G = nx.compose(G1, G2)
+    G = ox.graph_from_place("Rensselaer Polytechnic Institute")
+    #G2 = ox.graph_from_place("Rensselaer Polytechnic Institute", custom_filter='["highway"~"steps"]')
+    #G = nx.compose(G1, G2)
     ec = []
     for _,_,_,d in G.edges(keys = True, data = True):   
         #print(d['highway'])
@@ -62,7 +62,7 @@ def layerGraph():
         else:
             ec.append('r')
     #ec = ['y' if 'highway"~"steps' in d else 'r' for _, _, _, d in G.edges(keys=True, data=True)]
-    for edge in G2.edges(keys = True, data=True):
+    for edge in G.edges(keys = True, data=True):
         print(edge)      
     fig, ax = ox.plot_graph(G, bgcolor='k', edge_color=ec,
                             node_size=0, edge_linewidth=0.5,
@@ -109,7 +109,9 @@ def addWeights():
     with open("/home/dennib2/Database/Django/backend/routedb/Accessible_Graph.p", 'wb') as f:
             pickle.dump(G, f)
 
-addWeights()
-G = coppyGenerate.readGraphFromFile()
-for i in G.edges(data = True):
-    print(i)
+# addWeights()
+# G = coppyGenerate.readGraphFromFile()
+# for i in G.edges(data = True):
+#     print(i)
+
+layerGraph()
