@@ -3,7 +3,15 @@ import networkx as nx
 import osmnx as ox
 import json
 
+"""
+this file is meant to act as a demonstration of how to use the osmnx library to plot a graph of the RPI campus in addition to better allow a person to have an understanding of the backboen fo the accessible routes project
+"""
+
 def testPlotRoute(RPI):
+      """
+      testPlotRoute plots a path between two points on the RPI campus
+      These values are hardcoded since this is a function meant to demonstrate routing and how it works with the nx shortest path function
+      """
       orig = ox.nearest_nodes(RPI, 42.7324294, -73.6905807)
       dest = ox.nearest_nodes(RPI, 42.7338301, -73.6847063)
       #1208042175, "lat": 42.7268945, "lon": -73.6737245
@@ -13,6 +21,11 @@ def testPlotRoute(RPI):
       #route_map.save('test.html')
       return route
 def addNodes(filename):
+      """
+      addNodes is a function that reads in a json file and adds nodes to the graph based on the data in the json file
+      input: filename - the name of the file to be read in
+      output: 0 - if the function completes successfully
+      """
       f = open(filename)
       data = json.load(f)
       add_nulls = lambda number, zero_count : "{0:0{1}d}".format(number, zero_count)
@@ -37,6 +50,12 @@ def addNodes(filename):
 
 
 def plotGraph():
+      """
+      plotGraph is a function that plots the graph of the RPI campus
+      This function will use matplotlib to plot the graph on the users computer. Sci-kit learn is also used whoich the user may need to install
+        input: None
+        output: RPI - the graph of the RPI campus
+      """
       #ox.config(use_cache=True, log_console=False)
       ox.settings.log_console = False
       ox.settings.use_cache = True
@@ -65,15 +84,16 @@ def plotGraph():
       return RPI
 
 def weight(RPI):
+      """
+      weight is a function that adds a weight to the edges of the graph
+        input: RPI - the graph of the RPI campus
+        output: RPI - the graph of the RPI campus with a weight added to the edges
+      """
       RPI = ox.graph_to_gdfs(RPI, nodes=True, edges=True)
       #RPI['weight'] = 1.0
       return RPI
 
 
-def customNodeCreator(filename):
-      nodeDict = {}
-
-      return nodeDict
 
 
 #place = 'Rensselaer Polytechnic Institute'
