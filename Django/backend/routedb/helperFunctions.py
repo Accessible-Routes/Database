@@ -6,18 +6,41 @@ import networkx as nx
 from pykml import parser
 from math import sin, cos, sqrt, atan2, radians
 import coppyGenerate
+
 def readGraphFromFile():
-      with open("/home/dennib2/Database/Django/backend/routedb/graph.p", 'rb') as f: 
-            G_loaded = pickle.load(f)
-            return G_loaded
+    """
+    readGraphFromFile reads the graph from the file and returns it
+    input: None
+    return: G_loaded: the graph that was read from the file
+    """
+    with open("/home/dennib2/Database/Django/backend/routedb/graph.p", 'rb') as f: 
+        G_loaded = pickle.load(f)
+        return G_loaded
 
 def getElevation(tmp_x, tmp_y):
-    url = f'https://api.open-elevation.com/api/v1/lookup?locations={tmp_y},{tmp_x}'
+    """
+    getElevation takes in a latitude and longitude and returns the elevation at that point
+    
+    input: 
+        tmp_x: the latitude of the point
+        tmp_y: the longitude of the point
+
+    return: data['results'][0]['elevation']: the elevation at the point
+    """
+    url = f'https://api.open-elevation.com/api/v1/lookup?locations={tmp_y},{tmp_x}
     r = requests.get(url)
     data = json.loads(r.content)
     return data['results'][0]['elevation']
 
 def getDistFromLatLon(point1, point2):
+    """
+    getDistFromLatLon takes in two points and returns the distance between them
+    points are in the form (latitude, longitude)
+    input:
+        point1: the first point
+        point2: the second point
+    return: distance: the distance between the two points
+    """
     R = 6373.0
     lat1 = radians(float(point1[0]))
     lon1 = radians(float(point1[1]))
@@ -33,7 +56,13 @@ def getDistFromLatLon(point1, point2):
     distance = R * c
     return distance
 
+
 def elevations(RPI):
+    """
+    elevations takes in a graph and adds the elevation to the edges of the graph. This dumps it in the pickle object
+    input: RPI: the graph
+    return: None
+    """
     for startID, endID, weight, attrDict in RPI.edges(keys = True, data = True):
         startNode = RPI.nodes[startID]
         endNode = RPI.nodes[endID]
@@ -46,6 +75,12 @@ def elevations(RPI):
             pickle.dump(G, f)
 
 def layerGraph():
+    """
+    layerGraph takes in a graph and layers the graph based on the elevation
+    input: None
+    return: None
+    """
+
     north = 42.73201
     south = 42.72492
     east = -73.67119
@@ -70,11 +105,22 @@ def layerGraph():
 
 edgePairs = []
 def pairNodes(inputNode, stairNodes):
+    """
+    pairNodes takes in a node and a list of nodes and returns the node that is the closest to the input node
+    input: 
+        inputNode: the node to compare 
+        stairNodes: the list of nodes to compare
+    return: 
+        i: the node that is the closest to the input node
+    """
     for i in stairNodes:
         tmpName = i[0].split(" ")
         if inputNode[0].split(" ")[:-1] == tmpName[:-1] and len(tmpName) == len(inputNode[0].split(" ")) and i[0] != inputNode[0]:
             return i
 def bench1():
+    """
+    bench1 is just a test bench for using the pairNodes function with a kml file from the RPI disabled students club
+    """
     with open("/home/dennib2/Database/Django/backend/routedb/stairs.kml") as f:
         doc = parser.parse(f).getroot()
         stairNodes = []
@@ -90,6 +136,11 @@ def bench1():
 
 
 def addWeights():
+    """
+    addWeights adds the weights to the graph based on the distance between the nodes. This is dumped in the Accessiblke Graph pickle object
+    input: None
+    return: None
+    """
     G = coppyGenerate.readGraphFromFile()
     for startId, endId, weight, attrDict in G.edges(keys=True, data=True):
         startNode = G.nodes[startId]
